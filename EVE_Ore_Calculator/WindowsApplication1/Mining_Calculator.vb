@@ -244,6 +244,22 @@ Public Class Mining_Calculator
         'TODO: This line of code loads data into the 'YHIDataSet1.Mining_Prices' table. You can move, or remove it, as needed.
         Me.Mining_PricesTableAdapter.Fill(Me.YHIDataSet1.Mining_Prices)
 
+        IPU1.Text = ""
+        IPU2.Text = ""
+        IPU3.Text = ""
+        IPU4.Text = ""
+        IPU5.Text = ""
+        IPU6.Text = ""
+        IPU7.Text = ""
+        IPU8.Text = ""
+        IPU9.Text = ""
+        IPU10.Text = ""
+        IPU11.Text = ""
+        IPU12.Text = ""
+        IPU13.Text = ""
+        IPU14.Text = ""
+        IPU15.Text = ""
+
     End Sub
 
     Private Sub Item1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item1.SelectedIndexChanged
