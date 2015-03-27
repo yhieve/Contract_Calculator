@@ -2,17 +2,16 @@
 Imports MySql.Data.MySqlClient
 Imports System.IO
 
-Public Class PI_Calculator
+Public Class Mining_Calculator
     Dim Mysqlconn As MySqlConnection
     Dim cmd As MySqlCommand
-
-
 
     Private Sub Calc_Units1_Leave(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Units1.Leave
         If (IPU1.Text.Trim().Length = 0 Or Units1.Text.Trim().Length = 0) Then
             IskMade1.Text = 0
         Else
             IskMade1.Text = Convert.ToDecimal(IPU1.Text) * Convert.ToDecimal(Units1.Text)
+            M3Made1.Text = Convert.ToDecimal(Units1.Text) * Convert.ToDecimal(Item1.SelectedValue)
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -88,6 +87,46 @@ Public Class PI_Calculator
             Calc_Total_Isk_Made()
         End If
     End Sub
+    Private Sub Calc_Units11_Leave(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Units10.Leave
+        If (IPU11.Text.Trim().Length = 0 Or Units11.Text.Trim().Length = 0) Then
+            IskMade11.Text = 0
+        Else
+            IskMade11.Text = Convert.ToDecimal(IPU11.Text) * Convert.ToDecimal(Units11.Text)
+            Calc_Total_Isk_Made()
+        End If
+    End Sub
+    Private Sub Calc_Units12_Leave(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Units12.Leave
+        If (IPU12.Text.Trim().Length = 0 Or Units12.Text.Trim().Length = 0) Then
+            IskMade12.Text = 0
+        Else
+            IskMade12.Text = Convert.ToDecimal(IPU12.Text) * Convert.ToDecimal(Units12.Text)
+            Calc_Total_Isk_Made()
+        End If
+    End Sub
+    Private Sub Calc_Units13_Leave(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Units13.Leave
+        If (IPU13.Text.Trim().Length = 0 Or Units13.Text.Trim().Length = 0) Then
+            IskMade13.Text = 0
+        Else
+            IskMade13.Text = Convert.ToDecimal(IPU13.Text) * Convert.ToDecimal(Units13.Text)
+            Calc_Total_Isk_Made()
+        End If
+    End Sub
+    Private Sub Calc_Units14_Leave(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Units14.Leave
+        If (IPU14.Text.Trim().Length = 0 Or Units14.Text.Trim().Length = 0) Then
+            IskMade14.Text = 0
+        Else
+            IskMade14.Text = Convert.ToDecimal(IPU14.Text) * Convert.ToDecimal(Units14.Text)
+            Calc_Total_Isk_Made()
+        End If
+    End Sub
+    Private Sub Calc_Units15_Leave(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Units15.Leave
+        If (IPU15.Text.Trim().Length = 0 Or Units15.Text.Trim().Length = 0) Then
+            IskMade15.Text = 0
+        Else
+            IskMade15.Text = Convert.ToDecimal(IPU15.Text) * Convert.ToDecimal(Units15.Text)
+            Calc_Total_Isk_Made()
+        End If
+    End Sub
     Private Sub Calc_Total_Isk_Made()
         Total_Isk_Made.Text = Convert.ToDecimal(IskMade1.Text) +
             Convert.ToDecimal(IskMade2.Text) +
@@ -98,7 +137,27 @@ Public Class PI_Calculator
             Convert.ToDecimal(IskMade7.Text) +
             Convert.ToDecimal(IskMade8.Text) +
             Convert.ToDecimal(IskMade9.Text) +
-            Convert.ToDecimal(IskMade10.Text)
+            Convert.ToDecimal(IskMade10.Text) +
+            Convert.ToDecimal(IskMade11.Text) +
+            Convert.ToDecimal(IskMade12.Text) +
+            Convert.ToDecimal(IskMade13.Text) +
+            Convert.ToDecimal(IskMade14.Text) +
+            Convert.ToDecimal(IskMade15.Text)
+        Total_M3_Made.Text = Convert.ToDecimal(M3Made1.Text) +
+            Convert.ToDecimal(M3Made2.Text) +
+            Convert.ToDecimal(M3Made3.Text) +
+            Convert.ToDecimal(M3Made4.Text) +
+            Convert.ToDecimal(M3Made5.Text) +
+            Convert.ToDecimal(M3Made6.Text) +
+            Convert.ToDecimal(M3Made7.Text) +
+            Convert.ToDecimal(M3Made8.Text) +
+            Convert.ToDecimal(M3Made9.Text) +
+            Convert.ToDecimal(M3Made10.Text) +
+            Convert.ToDecimal(M3Made11.Text) +
+            Convert.ToDecimal(M3Made12.Text) +
+            Convert.ToDecimal(M3Made13.Text) +
+            Convert.ToDecimal(M3Made14.Text) +
+            Convert.ToDecimal(M3Made15.Text)
     End Sub
 
     Private Sub Clear_All_Button_Click(sender As Object, e As EventArgs) Handles Clear_All_Button.Click
@@ -112,6 +171,11 @@ Public Class PI_Calculator
         Item8.Text = ""
         Item9.Text = ""
         Item10.Text = ""
+        Item11.Text = ""
+        Item12.Text = ""
+        Item13.Text = ""
+        Item14.Text = ""
+        Item15.Text = ""
         IPU1.Text = ""
         IPU2.Text = ""
         IPU3.Text = ""
@@ -122,6 +186,11 @@ Public Class PI_Calculator
         IPU8.Text = ""
         IPU9.Text = ""
         IPU10.Text = ""
+        IPU11.Text = ""
+        IPU12.Text = ""
+        IPU13.Text = ""
+        IPU14.Text = ""
+        IPU15.Text = ""
         Units1.Text = ""
         Units2.Text = ""
         Units3.Text = ""
@@ -132,6 +201,11 @@ Public Class PI_Calculator
         Units8.Text = ""
         Units9.Text = ""
         Units10.Text = ""
+        Units11.Text = ""
+        Units12.Text = ""
+        Units13.Text = ""
+        Units14.Text = ""
+        Units15.Text = ""
         IskMade1.Text = "0"
         IskMade2.Text = "0"
         IskMade3.Text = "0"
@@ -142,39 +216,33 @@ Public Class PI_Calculator
         IskMade8.Text = "0"
         IskMade9.Text = "0"
         IskMade10.Text = "0"
+        IskMade11.Text = "0"
+        IskMade12.Text = "0"
+        IskMade13.Text = "0"
+        IskMade14.Text = "0"
+        IskMade15.Text = "0"
+        M3Made1.Text = "0"
+        M3Made2.Text = "0"
+        M3Made3.Text = "0"
+        M3Made4.Text = "0"
+        M3Made5.Text = "0"
+        M3Made6.Text = "0"
+        M3Made7.Text = "0"
+        M3Made8.Text = "0"
+        M3Made9.Text = "0"
+        M3Made10.Text = "0"
+        M3Made11.Text = "0"
+        M3Made12.Text = "0"
+        M3Made13.Text = "0"
+        M3Made14.Text = "0"
+        M3Made15.Text = "0"
         Total_Isk_Made.Text = ""
+        Total_M3_Made.Text = ""
     End Sub
 
-    Private Sub PI_Calculator_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        'TODO: This line of code loads data into the 'YHIDataSet1.PI_Prices' table. You can move, or remove it, as needed.
-        Me.PI_PricesTableAdapter.Fill(Me.YHIDataSet1.PI_Prices)
-        'TODO: This line of code loads data into the 'YHIDataSet1.PI_Prices' table. You can move, or remove it, as needed.
-        Me.PI_PricesTableAdapter.Fill(Me.YHIDataSet1.PI_Prices)
-        'TODO: This line of code loads data into the 'YHIDataSet1.PI_Prices' table. You can move, or remove it, as needed.
-        Me.PI_PricesTableAdapter.Fill(Me.YHIDataSet1.PI_Prices)
-        'TODO: This line of code loads data into the 'YHIDataSet1.PI_Prices' table. You can move, or remove it, as needed.
-        Me.PI_PricesTableAdapter.Fill(Me.YHIDataSet1.PI_Prices)
-        'TODO: This line of code loads data into the 'YHIDataSet1.PI_Prices' table. You can move, or remove it, as needed.
-        Me.PI_PricesTableAdapter.Fill(Me.YHIDataSet1.PI_Prices)
-        'TODO: This line of code loads data into the 'YHIDataSet1.PI_Prices' table. You can move, or remove it, as needed.
-        Me.PI_PricesTableAdapter.Fill(Me.YHIDataSet1.PI_Prices)
-        'TODO: This line of code loads data into the 'YHIDataSet1.PI_Prices' table. You can move, or remove it, as needed.
-        Me.PI_PricesTableAdapter.Fill(Me.YHIDataSet1.PI_Prices)
-        'TODO: This line of code loads data into the 'YHIDataSet1.PI_Prices' table. You can move, or remove it, as needed.
-        Me.PI_PricesTableAdapter.Fill(Me.YHIDataSet1.PI_Prices)
-        'TODO: This line of code loads data into the 'YHIDataSet.PI_Prices' table. You can move, or remove it, as needed.
-        Me.PI_PricesTableAdapter.Fill(Me.YHIDataSet.PI_Prices)
-
-        IPU1.Text = ""
-        IPU2.Text = ""
-        IPU3.Text = ""
-        IPU4.Text = ""
-        IPU5.Text = ""
-        IPU6.Text = ""
-        IPU7.Text = ""
-        IPU8.Text = ""
-        IPU9.Text = ""
-        IPU10.Text = ""
+    Private Sub Mining_Calculator_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'TODO: This line of code loads data into the 'YHIDataSet1.Mining_Prices' table. You can move, or remove it, as needed.
+        Me.Mining_PricesTableAdapter.Fill(Me.YHIDataSet1.Mining_Prices)
 
     End Sub
 
@@ -228,25 +296,51 @@ Public Class PI_Calculator
         'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
         IPU10.Text = Item10.SelectedIndex.ToString()
     End Sub
+    Private Sub Item11_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item11.SelectedIndexChanged
+        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
+        IPU11.Text = Item11.SelectedIndex.ToString()
+    End Sub
+    Private Sub Item12_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item12.SelectedIndexChanged
+        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
+        IPU12.Text = Item12.SelectedIndex.ToString()
+    End Sub
+    Private Sub Item13_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item13.SelectedIndexChanged
+        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
+        IPU13.Text = Item13.SelectedIndex.ToString()
+    End Sub
+    Private Sub Item14_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item14.SelectedIndexChanged
+        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
+        IPU14.Text = Item14.SelectedIndex.ToString()
+    End Sub
+    Private Sub Item15_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item15.SelectedIndexChanged
+        'MessageBox.Show(Item1.Text + " " + Item1.SelectedIndex.ToString())
+        IPU15.Text = Item15.SelectedIndex.ToString()
+    End Sub
 
     Private Sub Export_Button_Click(sender As Object, e As EventArgs) Handles Export_Button.Click
         If Not (Directory.Exists("C:\YHI_Contract_Info")) Then
             Directory.CreateDirectory("C:\YHI_Contract_Info")
         End If
-        Using writer As StreamWriter = New StreamWriter("C:\YHI_Contract_Info\PI_Contract_Info_" + DateTime.Today.ToString("MMddyyy") + ".csv")
-            writer.WriteLine("Total Isk Made")
-            writer.WriteLine(Total_Isk_Made.Text)
+        Using writer As StreamWriter = New StreamWriter("C:\YHI_Contract_Info\Mining_Contract_Info_" + DateTime.Today.ToString("MMddyyy") + ".csv")
+            writer.WriteLine("Total Isk Made, Total M3 Made")
+            writer.WriteLine(Total_Isk_Made.Text + "," + Total_M3_Made.Text)
             writer.WriteLine(" ")
-            writer.WriteLine("Item,Isk Per Unit,Units,IskMade")
-            writer.WriteLine(Item1.Text + "," + IPU1.Text + "," + Units1.Text + "," + IskMade1.Text)
-            writer.WriteLine(Item2.Text + "," + IPU2.Text + "," + Units2.Text + "," + IskMade2.Text)
-            writer.WriteLine(Item3.Text + "," + IPU3.Text + "," + Units3.Text + "," + IskMade3.Text)
-            writer.WriteLine(Item4.Text + "," + IPU4.Text + "," + Units4.Text + "," + IskMade4.Text)
-            writer.WriteLine(Item5.Text + "," + IPU5.Text + "," + Units5.Text + "," + IskMade5.Text)
-            writer.WriteLine(Item6.Text + "," + IPU6.Text + "," + Units6.Text + "," + IskMade6.Text)
-            writer.WriteLine(Item7.Text + "," + IPU7.Text + "," + Units7.Text + "," + IskMade7.Text)
-            writer.WriteLine(Item8.Text + "," + IPU8.Text + "," + Units8.Text + "," + IskMade8.Text)
-            writer.WriteLine(Item9.Text + "," + IPU9.Text + "," + Units9.Text + "," + IskMade9.Text)
+            writer.WriteLine("Item,Isk Per Unit,Units,IskMade,M3Made")
+            writer.WriteLine(Item1.Text + "," + IPU1.Text + "," + Units1.Text + "," + IskMade1.Text + "," + M3Made1.Text)
+            writer.WriteLine(Item2.Text + "," + IPU2.Text + "," + Units2.Text + "," + IskMade2.Text + "," + M3Made2.Text)
+            writer.WriteLine(Item3.Text + "," + IPU3.Text + "," + Units3.Text + "," + IskMade3.Text + "," + M3Made3.Text)
+            writer.WriteLine(Item4.Text + "," + IPU4.Text + "," + Units4.Text + "," + IskMade4.Text + "," + M3Made4.Text)
+            writer.WriteLine(Item5.Text + "," + IPU5.Text + "," + Units5.Text + "," + IskMade5.Text + "," + M3Made5.Text)
+            writer.WriteLine(Item6.Text + "," + IPU6.Text + "," + Units6.Text + "," + IskMade6.Text + "," + M3Made6.Text)
+            writer.WriteLine(Item7.Text + "," + IPU7.Text + "," + Units7.Text + "," + IskMade7.Text + "," + M3Made7.Text)
+            writer.WriteLine(Item8.Text + "," + IPU8.Text + "," + Units8.Text + "," + IskMade8.Text + "," + M3Made8.Text)
+            writer.WriteLine(Item9.Text + "," + IPU9.Text + "," + Units9.Text + "," + IskMade9.Text + "," + M3Made9.Text)
+            writer.WriteLine(Item10.Text + "," + IPU10.Text + "," + Units10.Text + "," + IskMade10.Text + "," + M3Made10.Text)
+            writer.WriteLine(Item11.Text + "," + IPU11.Text + "," + Units11.Text + "," + IskMade11.Text + "," + M3Made11.Text)
+            writer.WriteLine(Item12.Text + "," + IPU12.Text + "," + Units12.Text + "," + IskMade12.Text + "," + M3Made12.Text)
+            writer.WriteLine(Item13.Text + "," + IPU13.Text + "," + Units13.Text + "," + IskMade13.Text + "," + M3Made13.Text)
+            writer.WriteLine(Item14.Text + "," + IPU14.Text + "," + Units14.Text + "," + IskMade14.Text + "," + M3Made14.Text)
+            writer.WriteLine(Item15.Text + "," + IPU15.Text + "," + Units15.Text + "," + IskMade15.Text + "," + M3Made15.Text)
         End Using
         MessageBox.Show("File Exported to C:\YHI_Contract_Info")
     End Sub

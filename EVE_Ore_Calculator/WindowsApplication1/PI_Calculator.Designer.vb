@@ -84,6 +84,7 @@ Partial Class PI_Calculator
         Me.Item10 = New System.Windows.Forms.ComboBox()
         Me.PIPricesBindingSource10 = New System.Windows.Forms.BindingSource(Me.components)
         Me.PI_PricesTableAdapter = New EVE_Ore_Calculator.YHIDataSetTableAdapters.PI_PricesTableAdapter()
+        Me.Export_Button = New System.Windows.Forms.Button()
         CType(Me.PIPricesBindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.YHIDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PIPricesBindingSource2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -458,7 +459,7 @@ Partial Class PI_Calculator
         '
         'Clear_All_Button
         '
-        Me.Clear_All_Button.Location = New System.Drawing.Point(412, 639)
+        Me.Clear_All_Button.Location = New System.Drawing.Point(334, 639)
         Me.Clear_All_Button.Name = "Clear_All_Button"
         Me.Clear_All_Button.Size = New System.Drawing.Size(115, 41)
         Me.Clear_All_Button.TabIndex = 46
@@ -627,13 +628,24 @@ Partial Class PI_Calculator
         '
         Me.PI_PricesTableAdapter.ClearBeforeFill = True
         '
+        'Export_Button
+        '
+        Me.Export_Button.Location = New System.Drawing.Point(501, 639)
+        Me.Export_Button.Name = "Export_Button"
+        Me.Export_Button.Size = New System.Drawing.Size(115, 41)
+        Me.Export_Button.TabIndex = 47
+        Me.Export_Button.Text = "Export"
+        Me.Export_Button.UseVisualStyleBackColor = True
+        '
         'PI_Calculator
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoSize = True
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(944, 692)
+        Me.Controls.Add(Me.Export_Button)
         Me.Controls.Add(Me.Item10)
         Me.Controls.Add(Me.Item9)
         Me.Controls.Add(Me.Item8)
@@ -759,4 +771,5 @@ Partial Class PI_Calculator
     Friend WithEvents PIPricesBindingSource8 As System.Windows.Forms.BindingSource
     Friend WithEvents PIPricesBindingSource9 As System.Windows.Forms.BindingSource
     Friend WithEvents PIPricesBindingSource10 As System.Windows.Forms.BindingSource
+    Friend WithEvents Export_Button As System.Windows.Forms.Button
 End Class
