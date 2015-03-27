@@ -20,6 +20,7 @@ Public Class Mining_Calculator
             IskMade2.Text = 0
         Else
             IskMade2.Text = Convert.ToDecimal(IPU2.Text) * Convert.ToDecimal(Units2.Text)
+            M3Made2.Text = Convert.ToDecimal(Units2.Text) * Convert.ToDecimal(Item2.SelectedValue)
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -28,6 +29,7 @@ Public Class Mining_Calculator
             IskMade3.Text = 0
         Else
             IskMade3.Text = Convert.ToDecimal(IPU3.Text) * Convert.ToDecimal(Units3.Text)
+            M3Made3.Text = Convert.ToDecimal(Units3.Text) * Convert.ToDecimal(Item3.SelectedValue)
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -36,6 +38,7 @@ Public Class Mining_Calculator
             IskMade4.Text = 0
         Else
             IskMade4.Text = Convert.ToDecimal(IPU4.Text) * Convert.ToDecimal(Units4.Text)
+            M3Made4.Text = Convert.ToDecimal(Units4.Text) * Convert.ToDecimal(Item4.SelectedValue)
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -44,6 +47,7 @@ Public Class Mining_Calculator
             IskMade5.Text = 0
         Else
             IskMade5.Text = Convert.ToDecimal(IPU5.Text) * Convert.ToDecimal(Units5.Text)
+            M3Made5.Text = Convert.ToDecimal(Units5.Text) * Convert.ToDecimal(Item5.SelectedValue)
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -52,6 +56,7 @@ Public Class Mining_Calculator
             IskMade6.Text = 0
         Else
             IskMade6.Text = Convert.ToDecimal(IPU6.Text) * Convert.ToDecimal(Units6.Text)
+            M3Made6.Text = Convert.ToDecimal(Units6.Text) * Convert.ToDecimal(Item6.SelectedValue)
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -60,6 +65,7 @@ Public Class Mining_Calculator
             IskMade7.Text = 0
         Else
             IskMade7.Text = Convert.ToDecimal(IPU7.Text) * Convert.ToDecimal(Units7.Text)
+            M3Made7.Text = Convert.ToDecimal(Units7.Text) * Convert.ToDecimal(Item7.SelectedValue)
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -68,6 +74,7 @@ Public Class Mining_Calculator
             IskMade8.Text = 0
         Else
             IskMade8.Text = Convert.ToDecimal(IPU8.Text) * Convert.ToDecimal(Units8.Text)
+            M3Made8.Text = Convert.ToDecimal(Units8.Text) * Convert.ToDecimal(Item8.SelectedValue)
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -76,6 +83,7 @@ Public Class Mining_Calculator
             IskMade9.Text = 0
         Else
             IskMade9.Text = Convert.ToDecimal(IPU9.Text) * Convert.ToDecimal(Units9.Text)
+            M3Made9.Text = Convert.ToDecimal(Units9.Text) * Convert.ToDecimal(Item9.SelectedValue)
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -84,6 +92,7 @@ Public Class Mining_Calculator
             IskMade10.Text = 0
         Else
             IskMade10.Text = Convert.ToDecimal(IPU10.Text) * Convert.ToDecimal(Units10.Text)
+            M3Made10.Text = Convert.ToDecimal(Units10.Text) * Convert.ToDecimal(Item10.SelectedValue)
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -92,6 +101,7 @@ Public Class Mining_Calculator
             IskMade11.Text = 0
         Else
             IskMade11.Text = Convert.ToDecimal(IPU11.Text) * Convert.ToDecimal(Units11.Text)
+            M3Made11.Text = Convert.ToDecimal(Units11.Text) * Convert.ToDecimal(Item11.SelectedValue)
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -100,6 +110,7 @@ Public Class Mining_Calculator
             IskMade12.Text = 0
         Else
             IskMade12.Text = Convert.ToDecimal(IPU12.Text) * Convert.ToDecimal(Units12.Text)
+            M3Made12.Text = Convert.ToDecimal(Units12.Text) * Convert.ToDecimal(Item12.SelectedValue)
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -108,6 +119,7 @@ Public Class Mining_Calculator
             IskMade13.Text = 0
         Else
             IskMade13.Text = Convert.ToDecimal(IPU13.Text) * Convert.ToDecimal(Units13.Text)
+            M3Made13.Text = Convert.ToDecimal(Units13.Text) * Convert.ToDecimal(Item13.SelectedValue)
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -116,6 +128,7 @@ Public Class Mining_Calculator
             IskMade14.Text = 0
         Else
             IskMade14.Text = Convert.ToDecimal(IPU14.Text) * Convert.ToDecimal(Units14.Text)
+            M3Made14.Text = Convert.ToDecimal(Units14.Text) * Convert.ToDecimal(Item14.SelectedValue)
             Calc_Total_Isk_Made()
         End If
     End Sub
@@ -124,6 +137,7 @@ Public Class Mining_Calculator
             IskMade15.Text = 0
         Else
             IskMade15.Text = Convert.ToDecimal(IPU15.Text) * Convert.ToDecimal(Units15.Text)
+            M3Made15.Text = Convert.ToDecimal(Units15.Text) * Convert.ToDecimal(Item15.SelectedValue)
             Calc_Total_Isk_Made()
         End If
     End Sub
