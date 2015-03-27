@@ -158,6 +158,7 @@ Partial Class Mining_Calculator
         Me.Item10.Name = "Item10"
         Me.Item10.Size = New System.Drawing.Size(233, 28)
         Me.Item10.TabIndex = 47
+        Me.Item10.ValueMember = "M3"
         '
         'MiningPricesBindingSource9
         '
@@ -180,6 +181,7 @@ Partial Class Mining_Calculator
         Me.Item9.Name = "Item9"
         Me.Item9.Size = New System.Drawing.Size(233, 28)
         Me.Item9.TabIndex = 42
+        Me.Item9.ValueMember = "M3"
         '
         'MiningPricesBindingSource8
         '
@@ -197,6 +199,7 @@ Partial Class Mining_Calculator
         Me.Item8.Name = "Item8"
         Me.Item8.Size = New System.Drawing.Size(233, 28)
         Me.Item8.TabIndex = 37
+        Me.Item8.ValueMember = "M3"
         '
         'MiningPricesBindingSource7
         '
@@ -214,6 +217,7 @@ Partial Class Mining_Calculator
         Me.Item7.Name = "Item7"
         Me.Item7.Size = New System.Drawing.Size(233, 28)
         Me.Item7.TabIndex = 32
+        Me.Item7.ValueMember = "M3"
         '
         'MiningPricesBindingSource6
         '
@@ -231,6 +235,7 @@ Partial Class Mining_Calculator
         Me.Item6.Name = "Item6"
         Me.Item6.Size = New System.Drawing.Size(233, 28)
         Me.Item6.TabIndex = 27
+        Me.Item6.ValueMember = "M3"
         '
         'MiningPricesBindingSource5
         '
@@ -248,6 +253,7 @@ Partial Class Mining_Calculator
         Me.Item5.Name = "Item5"
         Me.Item5.Size = New System.Drawing.Size(233, 28)
         Me.Item5.TabIndex = 22
+        Me.Item5.ValueMember = "M3"
         '
         'MiningPricesBindingSource4
         '
@@ -265,6 +271,7 @@ Partial Class Mining_Calculator
         Me.Item4.Name = "Item4"
         Me.Item4.Size = New System.Drawing.Size(233, 28)
         Me.Item4.TabIndex = 17
+        Me.Item4.ValueMember = "M3"
         '
         'MiningPricesBindingSource3
         '
@@ -282,6 +289,7 @@ Partial Class Mining_Calculator
         Me.Item3.Name = "Item3"
         Me.Item3.Size = New System.Drawing.Size(233, 28)
         Me.Item3.TabIndex = 12
+        Me.Item3.ValueMember = "M3"
         '
         'MiningPricesBindingSource2
         '
@@ -299,6 +307,7 @@ Partial Class Mining_Calculator
         Me.Item2.Name = "Item2"
         Me.Item2.Size = New System.Drawing.Size(233, 28)
         Me.Item2.TabIndex = 7
+        Me.Item2.ValueMember = "M3"
         '
         'MiningPricesBindingSource1
         '
@@ -679,6 +688,7 @@ Partial Class Mining_Calculator
         Me.Item15.Name = "Item15"
         Me.Item15.Size = New System.Drawing.Size(233, 28)
         Me.Item15.TabIndex = 72
+        Me.Item15.ValueMember = "M3"
         '
         'MiningPricesBindingSource14
         '
@@ -696,6 +706,7 @@ Partial Class Mining_Calculator
         Me.Item14.Name = "Item14"
         Me.Item14.Size = New System.Drawing.Size(233, 28)
         Me.Item14.TabIndex = 67
+        Me.Item14.ValueMember = "M3"
         '
         'MiningPricesBindingSource13
         '
@@ -713,6 +724,7 @@ Partial Class Mining_Calculator
         Me.Item13.Name = "Item13"
         Me.Item13.Size = New System.Drawing.Size(233, 28)
         Me.Item13.TabIndex = 62
+        Me.Item13.ValueMember = "M3"
         '
         'MiningPricesBindingSource12
         '
@@ -730,6 +742,7 @@ Partial Class Mining_Calculator
         Me.Item12.Name = "Item12"
         Me.Item12.Size = New System.Drawing.Size(233, 28)
         Me.Item12.TabIndex = 57
+        Me.Item12.ValueMember = "M3"
         '
         'MiningPricesBindingSource11
         '
@@ -747,6 +760,7 @@ Partial Class Mining_Calculator
         Me.Item11.Name = "Item11"
         Me.Item11.Size = New System.Drawing.Size(233, 28)
         Me.Item11.TabIndex = 52
+        Me.Item11.ValueMember = "M3"
         '
         'MiningPricesBindingSource10
         '
