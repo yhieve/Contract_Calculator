@@ -223,7 +223,7 @@ Public Class PI_Calculator
 
     Private Sub Item7_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Item7.SelectedIndexChanged
         If Item7.SelectedIndex > 0 Then
-            Dim Source_Data As EVE_Ore_Calculator.YHIDataSet.Mining_PricesRow = Item7.SelectedItem.Row
+            Dim Source_Data As EVE_Ore_Calculator.YHIDataSet1.Mining_PricesRow = Item7.SelectedItem.Row
             IPU7.Text = Source_Data.Price
         End If
     End Sub
