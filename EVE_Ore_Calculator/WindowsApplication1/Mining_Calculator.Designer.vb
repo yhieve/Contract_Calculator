@@ -128,6 +128,22 @@ Partial Class Mining_Calculator
         Me.YHIDataSetBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.Mining_PricesTableAdapter = New EVE_Ore_Calculator.YHIDataSet1TableAdapters.Mining_PricesTableAdapter()
         Me.Export_Button = New System.Windows.Forms.Button()
+        Me.M3PU5 = New System.Windows.Forms.TextBox()
+        Me.M3PU4 = New System.Windows.Forms.TextBox()
+        Me.M3PU3 = New System.Windows.Forms.TextBox()
+        Me.M3PU2 = New System.Windows.Forms.TextBox()
+        Me.M3PU = New System.Windows.Forms.Label()
+        Me.M3PU1 = New System.Windows.Forms.TextBox()
+        Me.M3PU15 = New System.Windows.Forms.TextBox()
+        Me.M3PU14 = New System.Windows.Forms.TextBox()
+        Me.M3PU13 = New System.Windows.Forms.TextBox()
+        Me.M3PU12 = New System.Windows.Forms.TextBox()
+        Me.M3PU11 = New System.Windows.Forms.TextBox()
+        Me.M3PU10 = New System.Windows.Forms.TextBox()
+        Me.M3PU9 = New System.Windows.Forms.TextBox()
+        Me.M3PU8 = New System.Windows.Forms.TextBox()
+        Me.M3PU7 = New System.Windows.Forms.TextBox()
+        Me.M3PU6 = New System.Windows.Forms.TextBox()
         CType(Me.MiningPricesBindingSource9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.YHIDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MiningPricesBindingSource8, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -911,7 +927,7 @@ Partial Class Mining_Calculator
         '
         Me.M3Made10.BackColor = System.Drawing.SystemColors.Window
         Me.M3Made10.Enabled = False
-        Me.M3Made10.Location = New System.Drawing.Point(868, 601)
+        Me.M3Made10.Location = New System.Drawing.Point(1083, 597)
         Me.M3Made10.Name = "M3Made10"
         Me.M3Made10.ReadOnly = True
         Me.M3Made10.Size = New System.Drawing.Size(137, 26)
@@ -922,7 +938,7 @@ Partial Class Mining_Calculator
         '
         Me.M3Made9.BackColor = System.Drawing.SystemColors.Window
         Me.M3Made9.Enabled = False
-        Me.M3Made9.Location = New System.Drawing.Point(868, 545)
+        Me.M3Made9.Location = New System.Drawing.Point(1083, 541)
         Me.M3Made9.Name = "M3Made9"
         Me.M3Made9.ReadOnly = True
         Me.M3Made9.Size = New System.Drawing.Size(137, 26)
@@ -933,7 +949,7 @@ Partial Class Mining_Calculator
         '
         Me.M3Made8.BackColor = System.Drawing.SystemColors.Window
         Me.M3Made8.Enabled = False
-        Me.M3Made8.Location = New System.Drawing.Point(868, 489)
+        Me.M3Made8.Location = New System.Drawing.Point(1083, 485)
         Me.M3Made8.Name = "M3Made8"
         Me.M3Made8.ReadOnly = True
         Me.M3Made8.Size = New System.Drawing.Size(137, 26)
@@ -944,7 +960,7 @@ Partial Class Mining_Calculator
         '
         Me.M3Made7.BackColor = System.Drawing.SystemColors.Window
         Me.M3Made7.Enabled = False
-        Me.M3Made7.Location = New System.Drawing.Point(868, 437)
+        Me.M3Made7.Location = New System.Drawing.Point(1083, 433)
         Me.M3Made7.Name = "M3Made7"
         Me.M3Made7.ReadOnly = True
         Me.M3Made7.Size = New System.Drawing.Size(137, 26)
@@ -955,7 +971,7 @@ Partial Class Mining_Calculator
         '
         Me.M3Made6.BackColor = System.Drawing.SystemColors.Window
         Me.M3Made6.Enabled = False
-        Me.M3Made6.Location = New System.Drawing.Point(868, 386)
+        Me.M3Made6.Location = New System.Drawing.Point(1083, 382)
         Me.M3Made6.Name = "M3Made6"
         Me.M3Made6.ReadOnly = True
         Me.M3Made6.Size = New System.Drawing.Size(137, 26)
@@ -966,7 +982,7 @@ Partial Class Mining_Calculator
         '
         Me.M3Made5.BackColor = System.Drawing.SystemColors.Window
         Me.M3Made5.Enabled = False
-        Me.M3Made5.Location = New System.Drawing.Point(868, 332)
+        Me.M3Made5.Location = New System.Drawing.Point(1083, 328)
         Me.M3Made5.Name = "M3Made5"
         Me.M3Made5.ReadOnly = True
         Me.M3Made5.Size = New System.Drawing.Size(137, 26)
@@ -977,7 +993,7 @@ Partial Class Mining_Calculator
         '
         Me.M3Made4.BackColor = System.Drawing.SystemColors.Window
         Me.M3Made4.Enabled = False
-        Me.M3Made4.Location = New System.Drawing.Point(868, 278)
+        Me.M3Made4.Location = New System.Drawing.Point(1083, 274)
         Me.M3Made4.Name = "M3Made4"
         Me.M3Made4.ReadOnly = True
         Me.M3Made4.Size = New System.Drawing.Size(137, 26)
@@ -988,7 +1004,7 @@ Partial Class Mining_Calculator
         '
         Me.M3Made3.BackColor = System.Drawing.SystemColors.Window
         Me.M3Made3.Enabled = False
-        Me.M3Made3.Location = New System.Drawing.Point(868, 225)
+        Me.M3Made3.Location = New System.Drawing.Point(1083, 221)
         Me.M3Made3.Name = "M3Made3"
         Me.M3Made3.ReadOnly = True
         Me.M3Made3.Size = New System.Drawing.Size(137, 26)
@@ -999,7 +1015,7 @@ Partial Class Mining_Calculator
         '
         Me.M3Made2.BackColor = System.Drawing.SystemColors.Window
         Me.M3Made2.Enabled = False
-        Me.M3Made2.Location = New System.Drawing.Point(868, 175)
+        Me.M3Made2.Location = New System.Drawing.Point(1083, 171)
         Me.M3Made2.Name = "M3Made2"
         Me.M3Made2.ReadOnly = True
         Me.M3Made2.Size = New System.Drawing.Size(137, 26)
@@ -1009,7 +1025,7 @@ Partial Class Mining_Calculator
         'M3_Made_Label
         '
         Me.M3_Made_Label.AutoSize = True
-        Me.M3_Made_Label.Location = New System.Drawing.Point(897, 95)
+        Me.M3_Made_Label.Location = New System.Drawing.Point(1112, 91)
         Me.M3_Made_Label.Name = "M3_Made_Label"
         Me.M3_Made_Label.Size = New System.Drawing.Size(75, 20)
         Me.M3_Made_Label.TabIndex = 114
@@ -1019,7 +1035,7 @@ Partial Class Mining_Calculator
         '
         Me.M3Made1.BackColor = System.Drawing.SystemColors.Window
         Me.M3Made1.Enabled = False
-        Me.M3Made1.Location = New System.Drawing.Point(868, 119)
+        Me.M3Made1.Location = New System.Drawing.Point(1083, 115)
         Me.M3Made1.Name = "M3Made1"
         Me.M3Made1.ReadOnly = True
         Me.M3Made1.Size = New System.Drawing.Size(137, 26)
@@ -1030,7 +1046,7 @@ Partial Class Mining_Calculator
         '
         Me.M3Made15.BackColor = System.Drawing.SystemColors.Window
         Me.M3Made15.Enabled = False
-        Me.M3Made15.Location = New System.Drawing.Point(868, 871)
+        Me.M3Made15.Location = New System.Drawing.Point(1083, 867)
         Me.M3Made15.Name = "M3Made15"
         Me.M3Made15.ReadOnly = True
         Me.M3Made15.Size = New System.Drawing.Size(137, 26)
@@ -1041,7 +1057,7 @@ Partial Class Mining_Calculator
         '
         Me.M3Made14.BackColor = System.Drawing.SystemColors.Window
         Me.M3Made14.Enabled = False
-        Me.M3Made14.Location = New System.Drawing.Point(868, 810)
+        Me.M3Made14.Location = New System.Drawing.Point(1083, 806)
         Me.M3Made14.Name = "M3Made14"
         Me.M3Made14.ReadOnly = True
         Me.M3Made14.Size = New System.Drawing.Size(137, 26)
@@ -1052,7 +1068,7 @@ Partial Class Mining_Calculator
         '
         Me.M3Made13.BackColor = System.Drawing.SystemColors.Window
         Me.M3Made13.Enabled = False
-        Me.M3Made13.Location = New System.Drawing.Point(868, 754)
+        Me.M3Made13.Location = New System.Drawing.Point(1083, 750)
         Me.M3Made13.Name = "M3Made13"
         Me.M3Made13.ReadOnly = True
         Me.M3Made13.Size = New System.Drawing.Size(137, 26)
@@ -1063,7 +1079,7 @@ Partial Class Mining_Calculator
         '
         Me.M3Made12.BackColor = System.Drawing.SystemColors.Window
         Me.M3Made12.Enabled = False
-        Me.M3Made12.Location = New System.Drawing.Point(868, 702)
+        Me.M3Made12.Location = New System.Drawing.Point(1083, 698)
         Me.M3Made12.Name = "M3Made12"
         Me.M3Made12.ReadOnly = True
         Me.M3Made12.Size = New System.Drawing.Size(137, 26)
@@ -1074,7 +1090,7 @@ Partial Class Mining_Calculator
         '
         Me.M3Made11.BackColor = System.Drawing.SystemColors.Window
         Me.M3Made11.Enabled = False
-        Me.M3Made11.Location = New System.Drawing.Point(868, 651)
+        Me.M3Made11.Location = New System.Drawing.Point(1083, 647)
         Me.M3Made11.Name = "M3Made11"
         Me.M3Made11.ReadOnly = True
         Me.M3Made11.Size = New System.Drawing.Size(137, 26)
@@ -1113,6 +1129,180 @@ Partial Class Mining_Calculator
         Me.Export_Button.Text = "Export"
         Me.Export_Button.UseVisualStyleBackColor = True
         '
+        'M3PU5
+        '
+        Me.M3PU5.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU5.Enabled = False
+        Me.M3PU5.Location = New System.Drawing.Point(889, 328)
+        Me.M3PU5.Name = "M3PU5"
+        Me.M3PU5.ReadOnly = True
+        Me.M3PU5.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU5.TabIndex = 197
+        Me.M3PU5.Text = "0"
+        '
+        'M3PU4
+        '
+        Me.M3PU4.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU4.Enabled = False
+        Me.M3PU4.Location = New System.Drawing.Point(889, 274)
+        Me.M3PU4.Name = "M3PU4"
+        Me.M3PU4.ReadOnly = True
+        Me.M3PU4.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU4.TabIndex = 196
+        Me.M3PU4.Text = "0"
+        '
+        'M3PU3
+        '
+        Me.M3PU3.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU3.Enabled = False
+        Me.M3PU3.Location = New System.Drawing.Point(889, 220)
+        Me.M3PU3.Name = "M3PU3"
+        Me.M3PU3.ReadOnly = True
+        Me.M3PU3.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU3.TabIndex = 195
+        Me.M3PU3.Text = "0"
+        '
+        'M3PU2
+        '
+        Me.M3PU2.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU2.Enabled = False
+        Me.M3PU2.Location = New System.Drawing.Point(889, 171)
+        Me.M3PU2.Name = "M3PU2"
+        Me.M3PU2.ReadOnly = True
+        Me.M3PU2.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU2.TabIndex = 194
+        Me.M3PU2.Text = "0"
+        '
+        'M3PU
+        '
+        Me.M3PU.AutoSize = True
+        Me.M3PU.Location = New System.Drawing.Point(911, 91)
+        Me.M3PU.Name = "M3PU"
+        Me.M3PU.Size = New System.Drawing.Size(92, 20)
+        Me.M3PU.TabIndex = 198
+        Me.M3PU.Text = "M3 Per Unit"
+        '
+        'M3PU1
+        '
+        Me.M3PU1.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU1.Enabled = False
+        Me.M3PU1.Location = New System.Drawing.Point(889, 114)
+        Me.M3PU1.Name = "M3PU1"
+        Me.M3PU1.ReadOnly = True
+        Me.M3PU1.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU1.TabIndex = 193
+        Me.M3PU1.Text = "0"
+        '
+        'M3PU15
+        '
+        Me.M3PU15.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU15.Enabled = False
+        Me.M3PU15.Location = New System.Drawing.Point(889, 870)
+        Me.M3PU15.Name = "M3PU15"
+        Me.M3PU15.ReadOnly = True
+        Me.M3PU15.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU15.TabIndex = 192
+        Me.M3PU15.Text = "0"
+        '
+        'M3PU14
+        '
+        Me.M3PU14.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU14.Enabled = False
+        Me.M3PU14.Location = New System.Drawing.Point(889, 808)
+        Me.M3PU14.Name = "M3PU14"
+        Me.M3PU14.ReadOnly = True
+        Me.M3PU14.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU14.TabIndex = 191
+        Me.M3PU14.Text = "0"
+        '
+        'M3PU13
+        '
+        Me.M3PU13.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU13.Enabled = False
+        Me.M3PU13.Location = New System.Drawing.Point(889, 751)
+        Me.M3PU13.Name = "M3PU13"
+        Me.M3PU13.ReadOnly = True
+        Me.M3PU13.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU13.TabIndex = 190
+        Me.M3PU13.Text = "0"
+        '
+        'M3PU12
+        '
+        Me.M3PU12.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU12.Enabled = False
+        Me.M3PU12.Location = New System.Drawing.Point(889, 700)
+        Me.M3PU12.Name = "M3PU12"
+        Me.M3PU12.ReadOnly = True
+        Me.M3PU12.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU12.TabIndex = 189
+        Me.M3PU12.Text = "0"
+        '
+        'M3PU11
+        '
+        Me.M3PU11.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU11.Enabled = False
+        Me.M3PU11.Location = New System.Drawing.Point(889, 650)
+        Me.M3PU11.Name = "M3PU11"
+        Me.M3PU11.ReadOnly = True
+        Me.M3PU11.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU11.TabIndex = 188
+        Me.M3PU11.Text = "0"
+        '
+        'M3PU10
+        '
+        Me.M3PU10.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU10.Enabled = False
+        Me.M3PU10.Location = New System.Drawing.Point(889, 599)
+        Me.M3PU10.Name = "M3PU10"
+        Me.M3PU10.ReadOnly = True
+        Me.M3PU10.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU10.TabIndex = 187
+        Me.M3PU10.Text = "0"
+        '
+        'M3PU9
+        '
+        Me.M3PU9.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU9.Enabled = False
+        Me.M3PU9.Location = New System.Drawing.Point(889, 544)
+        Me.M3PU9.Name = "M3PU9"
+        Me.M3PU9.ReadOnly = True
+        Me.M3PU9.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU9.TabIndex = 186
+        Me.M3PU9.Text = "0"
+        '
+        'M3PU8
+        '
+        Me.M3PU8.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU8.Enabled = False
+        Me.M3PU8.Location = New System.Drawing.Point(889, 487)
+        Me.M3PU8.Name = "M3PU8"
+        Me.M3PU8.ReadOnly = True
+        Me.M3PU8.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU8.TabIndex = 185
+        Me.M3PU8.Text = "0"
+        '
+        'M3PU7
+        '
+        Me.M3PU7.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU7.Enabled = False
+        Me.M3PU7.Location = New System.Drawing.Point(889, 434)
+        Me.M3PU7.Name = "M3PU7"
+        Me.M3PU7.ReadOnly = True
+        Me.M3PU7.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU7.TabIndex = 184
+        Me.M3PU7.Text = "0"
+        '
+        'M3PU6
+        '
+        Me.M3PU6.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU6.Enabled = False
+        Me.M3PU6.Location = New System.Drawing.Point(889, 384)
+        Me.M3PU6.Name = "M3PU6"
+        Me.M3PU6.ReadOnly = True
+        Me.M3PU6.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU6.TabIndex = 183
+        Me.M3PU6.Text = "0"
+        '
         'Mining_Calculator
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
@@ -1120,7 +1310,23 @@ Partial Class Mining_Calculator
         Me.AutoSize = True
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1065, 1017)
+        Me.ClientSize = New System.Drawing.Size(1260, 1017)
+        Me.Controls.Add(Me.M3PU5)
+        Me.Controls.Add(Me.M3PU4)
+        Me.Controls.Add(Me.M3PU3)
+        Me.Controls.Add(Me.M3PU2)
+        Me.Controls.Add(Me.M3PU)
+        Me.Controls.Add(Me.M3PU1)
+        Me.Controls.Add(Me.M3PU15)
+        Me.Controls.Add(Me.M3PU14)
+        Me.Controls.Add(Me.M3PU13)
+        Me.Controls.Add(Me.M3PU12)
+        Me.Controls.Add(Me.M3PU11)
+        Me.Controls.Add(Me.M3PU10)
+        Me.Controls.Add(Me.M3PU9)
+        Me.Controls.Add(Me.M3PU8)
+        Me.Controls.Add(Me.M3PU7)
+        Me.Controls.Add(Me.M3PU6)
         Me.Controls.Add(Me.Export_Button)
         Me.Controls.Add(Me.Total_M3_Made)
         Me.Controls.Add(Me.Total_M3_Made_Label)
@@ -1334,4 +1540,20 @@ Partial Class Mining_Calculator
     Friend WithEvents MiningPricesBindingSource10 As System.Windows.Forms.BindingSource
     Friend WithEvents MiningPricesBindingSource14 As System.Windows.Forms.BindingSource
     Friend WithEvents Export_Button As System.Windows.Forms.Button
+    Friend WithEvents M3PU5 As System.Windows.Forms.TextBox
+    Friend WithEvents M3PU4 As System.Windows.Forms.TextBox
+    Friend WithEvents M3PU3 As System.Windows.Forms.TextBox
+    Friend WithEvents M3PU2 As System.Windows.Forms.TextBox
+    Friend WithEvents M3PU As System.Windows.Forms.Label
+    Friend WithEvents M3PU1 As System.Windows.Forms.TextBox
+    Friend WithEvents M3PU15 As System.Windows.Forms.TextBox
+    Friend WithEvents M3PU14 As System.Windows.Forms.TextBox
+    Friend WithEvents M3PU13 As System.Windows.Forms.TextBox
+    Friend WithEvents M3PU12 As System.Windows.Forms.TextBox
+    Friend WithEvents M3PU11 As System.Windows.Forms.TextBox
+    Friend WithEvents M3PU10 As System.Windows.Forms.TextBox
+    Friend WithEvents M3PU9 As System.Windows.Forms.TextBox
+    Friend WithEvents M3PU8 As System.Windows.Forms.TextBox
+    Friend WithEvents M3PU7 As System.Windows.Forms.TextBox
+    Friend WithEvents M3PU6 As System.Windows.Forms.TextBox
 End Class

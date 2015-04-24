@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class PI_Calculator
+Partial Class PICalculator
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -23,10 +23,10 @@ Partial Class PI_Calculator
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(PI_Calculator))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(PICalculator))
         Me.Item1 = New System.Windows.Forms.ComboBox()
-        Me.PIPricesBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
-        Me.YHIDataSet = New EVE_Ore_Calculator.YHIDataSet()
+        Me.PIPricesBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.YHIDataSet2 = New EVE_Ore_Calculator.YHIDataSet2()
         Me.IPU1 = New System.Windows.Forms.TextBox()
         Me.Units1 = New System.Windows.Forms.TextBox()
         Me.IskMade1 = New System.Windows.Forms.TextBox()
@@ -65,37 +65,99 @@ Partial Class PI_Calculator
         Me.IPU10 = New System.Windows.Forms.TextBox()
         Me.Clear_All_Button = New System.Windows.Forms.Button()
         Me.Item2 = New System.Windows.Forms.ComboBox()
-        Me.PIPricesBindingSource2 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.PIPricesBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Item3 = New System.Windows.Forms.ComboBox()
-        Me.PIPricesBindingSource3 = New System.Windows.Forms.BindingSource(Me.components)
-        Me.YHIDataSet1 = New EVE_Ore_Calculator.YHIDataSet()
+        Me.PIPricesBindingSource2 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Item4 = New System.Windows.Forms.ComboBox()
-        Me.PIPricesBindingSource4 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.PIPricesBindingSource3 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Item5 = New System.Windows.Forms.ComboBox()
-        Me.PIPricesBindingSource5 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.PIPricesBindingSource4 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Item6 = New System.Windows.Forms.ComboBox()
-        Me.PIPricesBindingSource6 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.PIPricesBindingSource5 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Item7 = New System.Windows.Forms.ComboBox()
-        Me.PIPricesBindingSource7 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.PIPricesBindingSource6 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Item8 = New System.Windows.Forms.ComboBox()
-        Me.PIPricesBindingSource8 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.PIPricesBindingSource7 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Item9 = New System.Windows.Forms.ComboBox()
-        Me.PIPricesBindingSource9 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.PIPricesBindingSource8 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Item10 = New System.Windows.Forms.ComboBox()
-        Me.PIPricesBindingSource10 = New System.Windows.Forms.BindingSource(Me.components)
-        Me.PI_PricesTableAdapter = New EVE_Ore_Calculator.YHIDataSetTableAdapters.PI_PricesTableAdapter()
+        Me.PIPricesBindingSource9 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Export_Button = New System.Windows.Forms.Button()
+        Me.M3Made5 = New System.Windows.Forms.TextBox()
+        Me.M3Made4 = New System.Windows.Forms.TextBox()
+        Me.M3Made3 = New System.Windows.Forms.TextBox()
+        Me.M3Made2 = New System.Windows.Forms.TextBox()
+        Me.M3_Made_Label = New System.Windows.Forms.Label()
+        Me.M3Made1 = New System.Windows.Forms.TextBox()
+        Me.M3Made15 = New System.Windows.Forms.TextBox()
+        Me.M3Made14 = New System.Windows.Forms.TextBox()
+        Me.M3Made13 = New System.Windows.Forms.TextBox()
+        Me.M3Made12 = New System.Windows.Forms.TextBox()
+        Me.M3Made11 = New System.Windows.Forms.TextBox()
+        Me.M3Made10 = New System.Windows.Forms.TextBox()
+        Me.M3Made9 = New System.Windows.Forms.TextBox()
+        Me.M3Made8 = New System.Windows.Forms.TextBox()
+        Me.M3Made7 = New System.Windows.Forms.TextBox()
+        Me.M3Made6 = New System.Windows.Forms.TextBox()
+        Me.Total_M3_Made = New System.Windows.Forms.TextBox()
+        Me.Total_M3_Made_Label = New System.Windows.Forms.Label()
+        Me.Item15 = New System.Windows.Forms.ComboBox()
+        Me.PIPricesBindingSource14 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.Item14 = New System.Windows.Forms.ComboBox()
+        Me.PIPricesBindingSource13 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.Item13 = New System.Windows.Forms.ComboBox()
+        Me.PIPricesBindingSource12 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.Item12 = New System.Windows.Forms.ComboBox()
+        Me.PIPricesBindingSource11 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.Item11 = New System.Windows.Forms.ComboBox()
+        Me.PIPricesBindingSource10 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.IskMade15 = New System.Windows.Forms.TextBox()
+        Me.Units15 = New System.Windows.Forms.TextBox()
+        Me.IPU15 = New System.Windows.Forms.TextBox()
+        Me.IskMade14 = New System.Windows.Forms.TextBox()
+        Me.Units14 = New System.Windows.Forms.TextBox()
+        Me.IPU14 = New System.Windows.Forms.TextBox()
+        Me.IskMade13 = New System.Windows.Forms.TextBox()
+        Me.Units13 = New System.Windows.Forms.TextBox()
+        Me.IPU13 = New System.Windows.Forms.TextBox()
+        Me.IskMade12 = New System.Windows.Forms.TextBox()
+        Me.Units12 = New System.Windows.Forms.TextBox()
+        Me.IPU12 = New System.Windows.Forms.TextBox()
+        Me.IskMade11 = New System.Windows.Forms.TextBox()
+        Me.Units11 = New System.Windows.Forms.TextBox()
+        Me.IPU11 = New System.Windows.Forms.TextBox()
+        Me.PI_PricesTableAdapter = New EVE_Ore_Calculator.YHIDataSet2TableAdapters.PI_PricesTableAdapter()
+        Me.M3PU5 = New System.Windows.Forms.TextBox()
+        Me.M3PU4 = New System.Windows.Forms.TextBox()
+        Me.M3PU3 = New System.Windows.Forms.TextBox()
+        Me.M3PU2 = New System.Windows.Forms.TextBox()
+        Me.M3PU = New System.Windows.Forms.Label()
+        Me.M3PU1 = New System.Windows.Forms.TextBox()
+        Me.M3PU15 = New System.Windows.Forms.TextBox()
+        Me.M3PU14 = New System.Windows.Forms.TextBox()
+        Me.M3PU13 = New System.Windows.Forms.TextBox()
+        Me.M3PU12 = New System.Windows.Forms.TextBox()
+        Me.M3PU11 = New System.Windows.Forms.TextBox()
+        Me.M3PU10 = New System.Windows.Forms.TextBox()
+        Me.M3PU9 = New System.Windows.Forms.TextBox()
+        Me.M3PU8 = New System.Windows.Forms.TextBox()
+        Me.M3PU7 = New System.Windows.Forms.TextBox()
+        Me.M3PU6 = New System.Windows.Forms.TextBox()
+        CType(Me.PIPricesBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.YHIDataSet2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PIPricesBindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.YHIDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PIPricesBindingSource2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PIPricesBindingSource3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.YHIDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PIPricesBindingSource4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PIPricesBindingSource5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PIPricesBindingSource6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PIPricesBindingSource7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PIPricesBindingSource8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PIPricesBindingSource9, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PIPricesBindingSource14, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PIPricesBindingSource13, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PIPricesBindingSource12, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PIPricesBindingSource11, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PIPricesBindingSource10, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -103,7 +165,7 @@ Partial Class PI_Calculator
         '
         Me.Item1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
         Me.Item1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
-        Me.Item1.DataSource = Me.PIPricesBindingSource1
+        Me.Item1.DataSource = Me.PIPricesBindingSource
         Me.Item1.DisplayMember = "Item"
         Me.Item1.FormattingEnabled = True
         Me.Item1.Location = New System.Drawing.Point(68, 100)
@@ -111,15 +173,15 @@ Partial Class PI_Calculator
         Me.Item1.Size = New System.Drawing.Size(233, 28)
         Me.Item1.TabIndex = 6
         '
-        'PIPricesBindingSource1
+        'PIPricesBindingSource
         '
-        Me.PIPricesBindingSource1.DataMember = "PI_Prices"
-        Me.PIPricesBindingSource1.DataSource = Me.YHIDataSet
+        Me.PIPricesBindingSource.DataMember = "PI_Prices"
+        Me.PIPricesBindingSource.DataSource = Me.YHIDataSet2
         '
-        'YHIDataSet
+        'YHIDataSet2
         '
-        Me.YHIDataSet.DataSetName = "YHIDataSet"
-        Me.YHIDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        Me.YHIDataSet2.DataSetName = "YHIDataSet2"
+        Me.YHIDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'IPU1
         '
@@ -459,7 +521,7 @@ Partial Class PI_Calculator
         '
         'Clear_All_Button
         '
-        Me.Clear_All_Button.Location = New System.Drawing.Point(334, 639)
+        Me.Clear_All_Button.Location = New System.Drawing.Point(353, 907)
         Me.Clear_All_Button.Name = "Clear_All_Button"
         Me.Clear_All_Button.Size = New System.Drawing.Size(115, 41)
         Me.Clear_All_Button.TabIndex = 46
@@ -470,7 +532,7 @@ Partial Class PI_Calculator
         '
         Me.Item2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
         Me.Item2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
-        Me.Item2.DataSource = Me.PIPricesBindingSource2
+        Me.Item2.DataSource = Me.PIPricesBindingSource1
         Me.Item2.DisplayMember = "Item"
         Me.Item2.FormattingEnabled = True
         Me.Item2.Location = New System.Drawing.Point(68, 152)
@@ -478,16 +540,16 @@ Partial Class PI_Calculator
         Me.Item2.Size = New System.Drawing.Size(233, 28)
         Me.Item2.TabIndex = 10
         '
-        'PIPricesBindingSource2
+        'PIPricesBindingSource1
         '
-        Me.PIPricesBindingSource2.DataMember = "PI_Prices"
-        Me.PIPricesBindingSource2.DataSource = Me.YHIDataSet
+        Me.PIPricesBindingSource1.DataMember = "PI_Prices"
+        Me.PIPricesBindingSource1.DataSource = Me.YHIDataSet2
         '
         'Item3
         '
         Me.Item3.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
         Me.Item3.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
-        Me.Item3.DataSource = Me.PIPricesBindingSource3
+        Me.Item3.DataSource = Me.PIPricesBindingSource2
         Me.Item3.DisplayMember = "Item"
         Me.Item3.FormattingEnabled = True
         Me.Item3.Location = New System.Drawing.Point(68, 202)
@@ -495,21 +557,16 @@ Partial Class PI_Calculator
         Me.Item3.Size = New System.Drawing.Size(233, 28)
         Me.Item3.TabIndex = 14
         '
-        'PIPricesBindingSource3
+        'PIPricesBindingSource2
         '
-        Me.PIPricesBindingSource3.DataMember = "PI_Prices"
-        Me.PIPricesBindingSource3.DataSource = Me.YHIDataSet1
-        '
-        'YHIDataSet1
-        '
-        Me.YHIDataSet1.DataSetName = "YHIDataSet"
-        Me.YHIDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        Me.PIPricesBindingSource2.DataMember = "PI_Prices"
+        Me.PIPricesBindingSource2.DataSource = Me.YHIDataSet2
         '
         'Item4
         '
         Me.Item4.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
         Me.Item4.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
-        Me.Item4.DataSource = Me.PIPricesBindingSource4
+        Me.Item4.DataSource = Me.PIPricesBindingSource3
         Me.Item4.DisplayMember = "Item"
         Me.Item4.FormattingEnabled = True
         Me.Item4.Location = New System.Drawing.Point(68, 255)
@@ -517,16 +574,16 @@ Partial Class PI_Calculator
         Me.Item4.Size = New System.Drawing.Size(233, 28)
         Me.Item4.TabIndex = 18
         '
-        'PIPricesBindingSource4
+        'PIPricesBindingSource3
         '
-        Me.PIPricesBindingSource4.DataMember = "PI_Prices"
-        Me.PIPricesBindingSource4.DataSource = Me.YHIDataSet1
+        Me.PIPricesBindingSource3.DataMember = "PI_Prices"
+        Me.PIPricesBindingSource3.DataSource = Me.YHIDataSet2
         '
         'Item5
         '
         Me.Item5.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
         Me.Item5.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
-        Me.Item5.DataSource = Me.PIPricesBindingSource5
+        Me.Item5.DataSource = Me.PIPricesBindingSource4
         Me.Item5.DisplayMember = "Item"
         Me.Item5.FormattingEnabled = True
         Me.Item5.Location = New System.Drawing.Point(68, 309)
@@ -534,16 +591,16 @@ Partial Class PI_Calculator
         Me.Item5.Size = New System.Drawing.Size(233, 28)
         Me.Item5.TabIndex = 22
         '
-        'PIPricesBindingSource5
+        'PIPricesBindingSource4
         '
-        Me.PIPricesBindingSource5.DataMember = "PI_Prices"
-        Me.PIPricesBindingSource5.DataSource = Me.YHIDataSet1
+        Me.PIPricesBindingSource4.DataMember = "PI_Prices"
+        Me.PIPricesBindingSource4.DataSource = Me.YHIDataSet2
         '
         'Item6
         '
         Me.Item6.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
         Me.Item6.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
-        Me.Item6.DataSource = Me.PIPricesBindingSource6
+        Me.Item6.DataSource = Me.PIPricesBindingSource5
         Me.Item6.DisplayMember = "Item"
         Me.Item6.FormattingEnabled = True
         Me.Item6.Location = New System.Drawing.Point(68, 363)
@@ -551,16 +608,16 @@ Partial Class PI_Calculator
         Me.Item6.Size = New System.Drawing.Size(233, 28)
         Me.Item6.TabIndex = 26
         '
-        'PIPricesBindingSource6
+        'PIPricesBindingSource5
         '
-        Me.PIPricesBindingSource6.DataMember = "PI_Prices"
-        Me.PIPricesBindingSource6.DataSource = Me.YHIDataSet1
+        Me.PIPricesBindingSource5.DataMember = "PI_Prices"
+        Me.PIPricesBindingSource5.DataSource = Me.YHIDataSet2
         '
         'Item7
         '
         Me.Item7.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
         Me.Item7.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
-        Me.Item7.DataSource = Me.PIPricesBindingSource7
+        Me.Item7.DataSource = Me.PIPricesBindingSource6
         Me.Item7.DisplayMember = "Item"
         Me.Item7.FormattingEnabled = True
         Me.Item7.Location = New System.Drawing.Point(68, 414)
@@ -568,16 +625,16 @@ Partial Class PI_Calculator
         Me.Item7.Size = New System.Drawing.Size(233, 28)
         Me.Item7.TabIndex = 30
         '
-        'PIPricesBindingSource7
+        'PIPricesBindingSource6
         '
-        Me.PIPricesBindingSource7.DataMember = "PI_Prices"
-        Me.PIPricesBindingSource7.DataSource = Me.YHIDataSet1
+        Me.PIPricesBindingSource6.DataMember = "PI_Prices"
+        Me.PIPricesBindingSource6.DataSource = Me.YHIDataSet2
         '
         'Item8
         '
         Me.Item8.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
         Me.Item8.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
-        Me.Item8.DataSource = Me.PIPricesBindingSource8
+        Me.Item8.DataSource = Me.PIPricesBindingSource7
         Me.Item8.DisplayMember = "Item"
         Me.Item8.FormattingEnabled = True
         Me.Item8.Location = New System.Drawing.Point(68, 466)
@@ -585,16 +642,16 @@ Partial Class PI_Calculator
         Me.Item8.Size = New System.Drawing.Size(233, 28)
         Me.Item8.TabIndex = 34
         '
-        'PIPricesBindingSource8
+        'PIPricesBindingSource7
         '
-        Me.PIPricesBindingSource8.DataMember = "PI_Prices"
-        Me.PIPricesBindingSource8.DataSource = Me.YHIDataSet1
+        Me.PIPricesBindingSource7.DataMember = "PI_Prices"
+        Me.PIPricesBindingSource7.DataSource = Me.YHIDataSet2
         '
         'Item9
         '
         Me.Item9.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
         Me.Item9.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
-        Me.Item9.DataSource = Me.PIPricesBindingSource9
+        Me.Item9.DataSource = Me.PIPricesBindingSource8
         Me.Item9.DisplayMember = "Item"
         Me.Item9.FormattingEnabled = True
         Me.Item9.Location = New System.Drawing.Point(68, 522)
@@ -602,16 +659,16 @@ Partial Class PI_Calculator
         Me.Item9.Size = New System.Drawing.Size(233, 28)
         Me.Item9.TabIndex = 38
         '
-        'PIPricesBindingSource9
+        'PIPricesBindingSource8
         '
-        Me.PIPricesBindingSource9.DataMember = "PI_Prices"
-        Me.PIPricesBindingSource9.DataSource = Me.YHIDataSet1
+        Me.PIPricesBindingSource8.DataMember = "PI_Prices"
+        Me.PIPricesBindingSource8.DataSource = Me.YHIDataSet2
         '
         'Item10
         '
         Me.Item10.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
         Me.Item10.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
-        Me.Item10.DataSource = Me.PIPricesBindingSource10
+        Me.Item10.DataSource = Me.PIPricesBindingSource9
         Me.Item10.DisplayMember = "Item"
         Me.Item10.FormattingEnabled = True
         Me.Item10.Location = New System.Drawing.Point(68, 583)
@@ -619,32 +676,673 @@ Partial Class PI_Calculator
         Me.Item10.Size = New System.Drawing.Size(233, 28)
         Me.Item10.TabIndex = 42
         '
-        'PIPricesBindingSource10
+        'PIPricesBindingSource9
         '
-        Me.PIPricesBindingSource10.DataMember = "PI_Prices"
-        Me.PIPricesBindingSource10.DataSource = Me.YHIDataSet1
-        '
-        'PI_PricesTableAdapter
-        '
-        Me.PI_PricesTableAdapter.ClearBeforeFill = True
+        Me.PIPricesBindingSource9.DataMember = "PI_Prices"
+        Me.PIPricesBindingSource9.DataSource = Me.YHIDataSet2
         '
         'Export_Button
         '
-        Me.Export_Button.Location = New System.Drawing.Point(501, 639)
+        Me.Export_Button.Location = New System.Drawing.Point(520, 907)
         Me.Export_Button.Name = "Export_Button"
         Me.Export_Button.Size = New System.Drawing.Size(115, 41)
         Me.Export_Button.TabIndex = 47
         Me.Export_Button.Text = "Export"
         Me.Export_Button.UseVisualStyleBackColor = True
         '
-        'PI_Calculator
+        'M3Made5
+        '
+        Me.M3Made5.BackColor = System.Drawing.SystemColors.Window
+        Me.M3Made5.Enabled = False
+        Me.M3Made5.Location = New System.Drawing.Point(1072, 313)
+        Me.M3Made5.Name = "M3Made5"
+        Me.M3Made5.ReadOnly = True
+        Me.M3Made5.Size = New System.Drawing.Size(138, 26)
+        Me.M3Made5.TabIndex = 199
+        Me.M3Made5.Text = "0"
+        '
+        'M3Made4
+        '
+        Me.M3Made4.BackColor = System.Drawing.SystemColors.Window
+        Me.M3Made4.Enabled = False
+        Me.M3Made4.Location = New System.Drawing.Point(1072, 260)
+        Me.M3Made4.Name = "M3Made4"
+        Me.M3Made4.ReadOnly = True
+        Me.M3Made4.Size = New System.Drawing.Size(138, 26)
+        Me.M3Made4.TabIndex = 198
+        Me.M3Made4.Text = "0"
+        '
+        'M3Made3
+        '
+        Me.M3Made3.BackColor = System.Drawing.SystemColors.Window
+        Me.M3Made3.Enabled = False
+        Me.M3Made3.Location = New System.Drawing.Point(1072, 206)
+        Me.M3Made3.Name = "M3Made3"
+        Me.M3Made3.ReadOnly = True
+        Me.M3Made3.Size = New System.Drawing.Size(138, 26)
+        Me.M3Made3.TabIndex = 197
+        Me.M3Made3.Text = "0"
+        '
+        'M3Made2
+        '
+        Me.M3Made2.BackColor = System.Drawing.SystemColors.Window
+        Me.M3Made2.Enabled = False
+        Me.M3Made2.Location = New System.Drawing.Point(1072, 156)
+        Me.M3Made2.Name = "M3Made2"
+        Me.M3Made2.ReadOnly = True
+        Me.M3Made2.Size = New System.Drawing.Size(138, 26)
+        Me.M3Made2.TabIndex = 196
+        Me.M3Made2.Text = "0"
+        '
+        'M3_Made_Label
+        '
+        Me.M3_Made_Label.AutoSize = True
+        Me.M3_Made_Label.Location = New System.Drawing.Point(1102, 76)
+        Me.M3_Made_Label.Name = "M3_Made_Label"
+        Me.M3_Made_Label.Size = New System.Drawing.Size(75, 20)
+        Me.M3_Made_Label.TabIndex = 200
+        Me.M3_Made_Label.Text = "M3 Made"
+        '
+        'M3Made1
+        '
+        Me.M3Made1.BackColor = System.Drawing.SystemColors.Window
+        Me.M3Made1.Enabled = False
+        Me.M3Made1.Location = New System.Drawing.Point(1072, 100)
+        Me.M3Made1.Name = "M3Made1"
+        Me.M3Made1.ReadOnly = True
+        Me.M3Made1.Size = New System.Drawing.Size(138, 26)
+        Me.M3Made1.TabIndex = 195
+        Me.M3Made1.Text = "0"
+        '
+        'M3Made15
+        '
+        Me.M3Made15.BackColor = System.Drawing.SystemColors.Window
+        Me.M3Made15.Enabled = False
+        Me.M3Made15.Location = New System.Drawing.Point(1072, 856)
+        Me.M3Made15.Name = "M3Made15"
+        Me.M3Made15.ReadOnly = True
+        Me.M3Made15.Size = New System.Drawing.Size(138, 26)
+        Me.M3Made15.TabIndex = 194
+        Me.M3Made15.Text = "0"
+        '
+        'M3Made14
+        '
+        Me.M3Made14.BackColor = System.Drawing.SystemColors.Window
+        Me.M3Made14.Enabled = False
+        Me.M3Made14.Location = New System.Drawing.Point(1072, 795)
+        Me.M3Made14.Name = "M3Made14"
+        Me.M3Made14.ReadOnly = True
+        Me.M3Made14.Size = New System.Drawing.Size(138, 26)
+        Me.M3Made14.TabIndex = 193
+        Me.M3Made14.Text = "0"
+        '
+        'M3Made13
+        '
+        Me.M3Made13.BackColor = System.Drawing.SystemColors.Window
+        Me.M3Made13.Enabled = False
+        Me.M3Made13.Location = New System.Drawing.Point(1072, 738)
+        Me.M3Made13.Name = "M3Made13"
+        Me.M3Made13.ReadOnly = True
+        Me.M3Made13.Size = New System.Drawing.Size(138, 26)
+        Me.M3Made13.TabIndex = 192
+        Me.M3Made13.Text = "0"
+        '
+        'M3Made12
+        '
+        Me.M3Made12.BackColor = System.Drawing.SystemColors.Window
+        Me.M3Made12.Enabled = False
+        Me.M3Made12.Location = New System.Drawing.Point(1072, 687)
+        Me.M3Made12.Name = "M3Made12"
+        Me.M3Made12.ReadOnly = True
+        Me.M3Made12.Size = New System.Drawing.Size(138, 26)
+        Me.M3Made12.TabIndex = 191
+        Me.M3Made12.Text = "0"
+        '
+        'M3Made11
+        '
+        Me.M3Made11.BackColor = System.Drawing.SystemColors.Window
+        Me.M3Made11.Enabled = False
+        Me.M3Made11.Location = New System.Drawing.Point(1072, 636)
+        Me.M3Made11.Name = "M3Made11"
+        Me.M3Made11.ReadOnly = True
+        Me.M3Made11.Size = New System.Drawing.Size(138, 26)
+        Me.M3Made11.TabIndex = 190
+        Me.M3Made11.Text = "0"
+        '
+        'M3Made10
+        '
+        Me.M3Made10.BackColor = System.Drawing.SystemColors.Window
+        Me.M3Made10.Enabled = False
+        Me.M3Made10.Location = New System.Drawing.Point(1072, 586)
+        Me.M3Made10.Name = "M3Made10"
+        Me.M3Made10.ReadOnly = True
+        Me.M3Made10.Size = New System.Drawing.Size(138, 26)
+        Me.M3Made10.TabIndex = 189
+        Me.M3Made10.Text = "0"
+        '
+        'M3Made9
+        '
+        Me.M3Made9.BackColor = System.Drawing.SystemColors.Window
+        Me.M3Made9.Enabled = False
+        Me.M3Made9.Location = New System.Drawing.Point(1072, 530)
+        Me.M3Made9.Name = "M3Made9"
+        Me.M3Made9.ReadOnly = True
+        Me.M3Made9.Size = New System.Drawing.Size(138, 26)
+        Me.M3Made9.TabIndex = 188
+        Me.M3Made9.Text = "0"
+        '
+        'M3Made8
+        '
+        Me.M3Made8.BackColor = System.Drawing.SystemColors.Window
+        Me.M3Made8.Enabled = False
+        Me.M3Made8.Location = New System.Drawing.Point(1072, 473)
+        Me.M3Made8.Name = "M3Made8"
+        Me.M3Made8.ReadOnly = True
+        Me.M3Made8.Size = New System.Drawing.Size(138, 26)
+        Me.M3Made8.TabIndex = 187
+        Me.M3Made8.Text = "0"
+        '
+        'M3Made7
+        '
+        Me.M3Made7.BackColor = System.Drawing.SystemColors.Window
+        Me.M3Made7.Enabled = False
+        Me.M3Made7.Location = New System.Drawing.Point(1072, 421)
+        Me.M3Made7.Name = "M3Made7"
+        Me.M3Made7.ReadOnly = True
+        Me.M3Made7.Size = New System.Drawing.Size(138, 26)
+        Me.M3Made7.TabIndex = 186
+        Me.M3Made7.Text = "0"
+        '
+        'M3Made6
+        '
+        Me.M3Made6.BackColor = System.Drawing.SystemColors.Window
+        Me.M3Made6.Enabled = False
+        Me.M3Made6.Location = New System.Drawing.Point(1072, 369)
+        Me.M3Made6.Name = "M3Made6"
+        Me.M3Made6.ReadOnly = True
+        Me.M3Made6.Size = New System.Drawing.Size(138, 26)
+        Me.M3Made6.TabIndex = 185
+        Me.M3Made6.Text = "0"
+        '
+        'Total_M3_Made
+        '
+        Me.Total_M3_Made.BackColor = System.Drawing.SystemColors.Window
+        Me.Total_M3_Made.Location = New System.Drawing.Point(741, 28)
+        Me.Total_M3_Made.Name = "Total_M3_Made"
+        Me.Total_M3_Made.ReadOnly = True
+        Me.Total_M3_Made.Size = New System.Drawing.Size(176, 26)
+        Me.Total_M3_Made.TabIndex = 207
+        Me.Total_M3_Made.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'Total_M3_Made_Label
+        '
+        Me.Total_M3_Made_Label.AutoSize = True
+        Me.Total_M3_Made_Label.Location = New System.Drawing.Point(621, 28)
+        Me.Total_M3_Made_Label.Name = "Total_M3_Made_Label"
+        Me.Total_M3_Made_Label.Size = New System.Drawing.Size(114, 20)
+        Me.Total_M3_Made_Label.TabIndex = 208
+        Me.Total_M3_Made_Label.Text = "Total M3 Made"
+        '
+        'Item15
+        '
+        Me.Item15.DataSource = Me.PIPricesBindingSource14
+        Me.Item15.DisplayMember = "Item"
+        Me.Item15.FormattingEnabled = True
+        Me.Item15.Location = New System.Drawing.Point(68, 852)
+        Me.Item15.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Item15.Name = "Item15"
+        Me.Item15.Size = New System.Drawing.Size(234, 28)
+        Me.Item15.TabIndex = 228
+        '
+        'PIPricesBindingSource14
+        '
+        Me.PIPricesBindingSource14.DataMember = "PI_Prices"
+        Me.PIPricesBindingSource14.DataSource = Me.YHIDataSet2
+        '
+        'Item14
+        '
+        Me.Item14.DataSource = Me.PIPricesBindingSource13
+        Me.Item14.DisplayMember = "Item"
+        Me.Item14.FormattingEnabled = True
+        Me.Item14.Location = New System.Drawing.Point(68, 794)
+        Me.Item14.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Item14.Name = "Item14"
+        Me.Item14.Size = New System.Drawing.Size(234, 28)
+        Me.Item14.TabIndex = 227
+        '
+        'PIPricesBindingSource13
+        '
+        Me.PIPricesBindingSource13.DataMember = "PI_Prices"
+        Me.PIPricesBindingSource13.DataSource = Me.YHIDataSet2
+        '
+        'Item13
+        '
+        Me.Item13.DataSource = Me.PIPricesBindingSource12
+        Me.Item13.DisplayMember = "Item"
+        Me.Item13.FormattingEnabled = True
+        Me.Item13.Location = New System.Drawing.Point(68, 737)
+        Me.Item13.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Item13.Name = "Item13"
+        Me.Item13.Size = New System.Drawing.Size(234, 28)
+        Me.Item13.TabIndex = 226
+        '
+        'PIPricesBindingSource12
+        '
+        Me.PIPricesBindingSource12.DataMember = "PI_Prices"
+        Me.PIPricesBindingSource12.DataSource = Me.YHIDataSet2
+        '
+        'Item12
+        '
+        Me.Item12.DataSource = Me.PIPricesBindingSource11
+        Me.Item12.DisplayMember = "Item"
+        Me.Item12.FormattingEnabled = True
+        Me.Item12.Location = New System.Drawing.Point(68, 686)
+        Me.Item12.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Item12.Name = "Item12"
+        Me.Item12.Size = New System.Drawing.Size(234, 28)
+        Me.Item12.TabIndex = 225
+        '
+        'PIPricesBindingSource11
+        '
+        Me.PIPricesBindingSource11.DataMember = "PI_Prices"
+        Me.PIPricesBindingSource11.DataSource = Me.YHIDataSet2
+        '
+        'Item11
+        '
+        Me.Item11.DataSource = Me.PIPricesBindingSource10
+        Me.Item11.DisplayMember = "Item"
+        Me.Item11.FormattingEnabled = True
+        Me.Item11.Location = New System.Drawing.Point(68, 634)
+        Me.Item11.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Item11.Name = "Item11"
+        Me.Item11.Size = New System.Drawing.Size(234, 28)
+        Me.Item11.TabIndex = 224
+        '
+        'PIPricesBindingSource10
+        '
+        Me.PIPricesBindingSource10.DataMember = "PI_Prices"
+        Me.PIPricesBindingSource10.DataSource = Me.YHIDataSet2
+        '
+        'IskMade15
+        '
+        Me.IskMade15.BackColor = System.Drawing.SystemColors.Window
+        Me.IskMade15.Enabled = False
+        Me.IskMade15.Location = New System.Drawing.Point(725, 852)
+        Me.IskMade15.Name = "IskMade15"
+        Me.IskMade15.ReadOnly = True
+        Me.IskMade15.Size = New System.Drawing.Size(138, 26)
+        Me.IskMade15.TabIndex = 223
+        Me.IskMade15.Text = "0"
+        '
+        'Units15
+        '
+        Me.Units15.Location = New System.Drawing.Point(542, 856)
+        Me.Units15.Name = "Units15"
+        Me.Units15.Size = New System.Drawing.Size(138, 26)
+        Me.Units15.TabIndex = 222
+        '
+        'IPU15
+        '
+        Me.IPU15.BackColor = System.Drawing.SystemColors.Window
+        Me.IPU15.Enabled = False
+        Me.IPU15.Location = New System.Drawing.Point(350, 852)
+        Me.IPU15.Name = "IPU15"
+        Me.IPU15.ReadOnly = True
+        Me.IPU15.Size = New System.Drawing.Size(138, 26)
+        Me.IPU15.TabIndex = 221
+        '
+        'IskMade14
+        '
+        Me.IskMade14.BackColor = System.Drawing.SystemColors.Window
+        Me.IskMade14.Enabled = False
+        Me.IskMade14.Location = New System.Drawing.Point(725, 792)
+        Me.IskMade14.Name = "IskMade14"
+        Me.IskMade14.ReadOnly = True
+        Me.IskMade14.Size = New System.Drawing.Size(138, 26)
+        Me.IskMade14.TabIndex = 220
+        Me.IskMade14.Text = "0"
+        '
+        'Units14
+        '
+        Me.Units14.Location = New System.Drawing.Point(542, 794)
+        Me.Units14.Name = "Units14"
+        Me.Units14.Size = New System.Drawing.Size(138, 26)
+        Me.Units14.TabIndex = 219
+        '
+        'IPU14
+        '
+        Me.IPU14.BackColor = System.Drawing.SystemColors.Window
+        Me.IPU14.Enabled = False
+        Me.IPU14.Location = New System.Drawing.Point(350, 792)
+        Me.IPU14.Name = "IPU14"
+        Me.IPU14.ReadOnly = True
+        Me.IPU14.Size = New System.Drawing.Size(138, 26)
+        Me.IPU14.TabIndex = 218
+        '
+        'IskMade13
+        '
+        Me.IskMade13.BackColor = System.Drawing.SystemColors.Window
+        Me.IskMade13.Enabled = False
+        Me.IskMade13.Location = New System.Drawing.Point(725, 736)
+        Me.IskMade13.Name = "IskMade13"
+        Me.IskMade13.ReadOnly = True
+        Me.IskMade13.Size = New System.Drawing.Size(138, 26)
+        Me.IskMade13.TabIndex = 217
+        Me.IskMade13.Text = "0"
+        '
+        'Units13
+        '
+        Me.Units13.Location = New System.Drawing.Point(542, 739)
+        Me.Units13.Name = "Units13"
+        Me.Units13.Size = New System.Drawing.Size(138, 26)
+        Me.Units13.TabIndex = 216
+        '
+        'IPU13
+        '
+        Me.IPU13.BackColor = System.Drawing.SystemColors.Window
+        Me.IPU13.Enabled = False
+        Me.IPU13.Location = New System.Drawing.Point(350, 736)
+        Me.IPU13.Name = "IPU13"
+        Me.IPU13.ReadOnly = True
+        Me.IPU13.Size = New System.Drawing.Size(138, 26)
+        Me.IPU13.TabIndex = 215
+        '
+        'IskMade12
+        '
+        Me.IskMade12.BackColor = System.Drawing.SystemColors.Window
+        Me.IskMade12.Enabled = False
+        Me.IskMade12.Location = New System.Drawing.Point(725, 683)
+        Me.IskMade12.Name = "IskMade12"
+        Me.IskMade12.ReadOnly = True
+        Me.IskMade12.Size = New System.Drawing.Size(138, 26)
+        Me.IskMade12.TabIndex = 214
+        Me.IskMade12.Text = "0"
+        '
+        'Units12
+        '
+        Me.Units12.Location = New System.Drawing.Point(542, 686)
+        Me.Units12.Name = "Units12"
+        Me.Units12.Size = New System.Drawing.Size(138, 26)
+        Me.Units12.TabIndex = 213
+        '
+        'IPU12
+        '
+        Me.IPU12.BackColor = System.Drawing.SystemColors.Window
+        Me.IPU12.Enabled = False
+        Me.IPU12.Location = New System.Drawing.Point(350, 683)
+        Me.IPU12.Name = "IPU12"
+        Me.IPU12.ReadOnly = True
+        Me.IPU12.Size = New System.Drawing.Size(138, 26)
+        Me.IPU12.TabIndex = 212
+        '
+        'IskMade11
+        '
+        Me.IskMade11.BackColor = System.Drawing.SystemColors.Window
+        Me.IskMade11.Enabled = False
+        Me.IskMade11.Location = New System.Drawing.Point(725, 631)
+        Me.IskMade11.Name = "IskMade11"
+        Me.IskMade11.ReadOnly = True
+        Me.IskMade11.Size = New System.Drawing.Size(138, 26)
+        Me.IskMade11.TabIndex = 211
+        Me.IskMade11.Text = "0"
+        '
+        'Units11
+        '
+        Me.Units11.Location = New System.Drawing.Point(542, 634)
+        Me.Units11.Name = "Units11"
+        Me.Units11.Size = New System.Drawing.Size(138, 26)
+        Me.Units11.TabIndex = 210
+        '
+        'IPU11
+        '
+        Me.IPU11.BackColor = System.Drawing.SystemColors.Window
+        Me.IPU11.Enabled = False
+        Me.IPU11.Location = New System.Drawing.Point(350, 631)
+        Me.IPU11.Name = "IPU11"
+        Me.IPU11.ReadOnly = True
+        Me.IPU11.Size = New System.Drawing.Size(138, 26)
+        Me.IPU11.TabIndex = 209
+        '
+        'PI_PricesTableAdapter
+        '
+        Me.PI_PricesTableAdapter.ClearBeforeFill = True
+        '
+        'M3PU5
+        '
+        Me.M3PU5.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU5.Enabled = False
+        Me.M3PU5.Location = New System.Drawing.Point(899, 313)
+        Me.M3PU5.Name = "M3PU5"
+        Me.M3PU5.ReadOnly = True
+        Me.M3PU5.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU5.TabIndex = 243
+        Me.M3PU5.Text = "0"
+        '
+        'M3PU4
+        '
+        Me.M3PU4.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU4.Enabled = False
+        Me.M3PU4.Location = New System.Drawing.Point(899, 259)
+        Me.M3PU4.Name = "M3PU4"
+        Me.M3PU4.ReadOnly = True
+        Me.M3PU4.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU4.TabIndex = 242
+        Me.M3PU4.Text = "0"
+        '
+        'M3PU3
+        '
+        Me.M3PU3.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU3.Enabled = False
+        Me.M3PU3.Location = New System.Drawing.Point(899, 205)
+        Me.M3PU3.Name = "M3PU3"
+        Me.M3PU3.ReadOnly = True
+        Me.M3PU3.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU3.TabIndex = 241
+        Me.M3PU3.Text = "0"
+        '
+        'M3PU2
+        '
+        Me.M3PU2.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU2.Enabled = False
+        Me.M3PU2.Location = New System.Drawing.Point(899, 156)
+        Me.M3PU2.Name = "M3PU2"
+        Me.M3PU2.ReadOnly = True
+        Me.M3PU2.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU2.TabIndex = 240
+        Me.M3PU2.Text = "0"
+        '
+        'M3PU
+        '
+        Me.M3PU.AutoSize = True
+        Me.M3PU.Location = New System.Drawing.Point(921, 76)
+        Me.M3PU.Name = "M3PU"
+        Me.M3PU.Size = New System.Drawing.Size(92, 20)
+        Me.M3PU.TabIndex = 244
+        Me.M3PU.Text = "M3 Per Unit"
+        '
+        'M3PU1
+        '
+        Me.M3PU1.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU1.Enabled = False
+        Me.M3PU1.Location = New System.Drawing.Point(899, 99)
+        Me.M3PU1.Name = "M3PU1"
+        Me.M3PU1.ReadOnly = True
+        Me.M3PU1.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU1.TabIndex = 239
+        Me.M3PU1.Text = "0"
+        '
+        'M3PU15
+        '
+        Me.M3PU15.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU15.Enabled = False
+        Me.M3PU15.Location = New System.Drawing.Point(899, 855)
+        Me.M3PU15.Name = "M3PU15"
+        Me.M3PU15.ReadOnly = True
+        Me.M3PU15.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU15.TabIndex = 238
+        Me.M3PU15.Text = "0"
+        '
+        'M3PU14
+        '
+        Me.M3PU14.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU14.Enabled = False
+        Me.M3PU14.Location = New System.Drawing.Point(899, 793)
+        Me.M3PU14.Name = "M3PU14"
+        Me.M3PU14.ReadOnly = True
+        Me.M3PU14.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU14.TabIndex = 237
+        Me.M3PU14.Text = "0"
+        '
+        'M3PU13
+        '
+        Me.M3PU13.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU13.Enabled = False
+        Me.M3PU13.Location = New System.Drawing.Point(899, 736)
+        Me.M3PU13.Name = "M3PU13"
+        Me.M3PU13.ReadOnly = True
+        Me.M3PU13.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU13.TabIndex = 236
+        Me.M3PU13.Text = "0"
+        '
+        'M3PU12
+        '
+        Me.M3PU12.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU12.Enabled = False
+        Me.M3PU12.Location = New System.Drawing.Point(899, 685)
+        Me.M3PU12.Name = "M3PU12"
+        Me.M3PU12.ReadOnly = True
+        Me.M3PU12.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU12.TabIndex = 235
+        Me.M3PU12.Text = "0"
+        '
+        'M3PU11
+        '
+        Me.M3PU11.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU11.Enabled = False
+        Me.M3PU11.Location = New System.Drawing.Point(899, 635)
+        Me.M3PU11.Name = "M3PU11"
+        Me.M3PU11.ReadOnly = True
+        Me.M3PU11.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU11.TabIndex = 234
+        Me.M3PU11.Text = "0"
+        '
+        'M3PU10
+        '
+        Me.M3PU10.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU10.Enabled = False
+        Me.M3PU10.Location = New System.Drawing.Point(899, 584)
+        Me.M3PU10.Name = "M3PU10"
+        Me.M3PU10.ReadOnly = True
+        Me.M3PU10.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU10.TabIndex = 233
+        Me.M3PU10.Text = "0"
+        '
+        'M3PU9
+        '
+        Me.M3PU9.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU9.Enabled = False
+        Me.M3PU9.Location = New System.Drawing.Point(899, 529)
+        Me.M3PU9.Name = "M3PU9"
+        Me.M3PU9.ReadOnly = True
+        Me.M3PU9.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU9.TabIndex = 232
+        Me.M3PU9.Text = "0"
+        '
+        'M3PU8
+        '
+        Me.M3PU8.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU8.Enabled = False
+        Me.M3PU8.Location = New System.Drawing.Point(899, 472)
+        Me.M3PU8.Name = "M3PU8"
+        Me.M3PU8.ReadOnly = True
+        Me.M3PU8.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU8.TabIndex = 231
+        Me.M3PU8.Text = "0"
+        '
+        'M3PU7
+        '
+        Me.M3PU7.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU7.Enabled = False
+        Me.M3PU7.Location = New System.Drawing.Point(899, 419)
+        Me.M3PU7.Name = "M3PU7"
+        Me.M3PU7.ReadOnly = True
+        Me.M3PU7.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU7.TabIndex = 230
+        Me.M3PU7.Text = "0"
+        '
+        'M3PU6
+        '
+        Me.M3PU6.BackColor = System.Drawing.SystemColors.Window
+        Me.M3PU6.Enabled = False
+        Me.M3PU6.Location = New System.Drawing.Point(899, 369)
+        Me.M3PU6.Name = "M3PU6"
+        Me.M3PU6.ReadOnly = True
+        Me.M3PU6.Size = New System.Drawing.Size(138, 26)
+        Me.M3PU6.TabIndex = 229
+        Me.M3PU6.Text = "0"
+        '
+        'PICalculator
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(944, 692)
+        Me.ClientSize = New System.Drawing.Size(1260, 1017)
+        Me.Controls.Add(Me.M3PU5)
+        Me.Controls.Add(Me.M3PU4)
+        Me.Controls.Add(Me.M3PU3)
+        Me.Controls.Add(Me.M3PU2)
+        Me.Controls.Add(Me.M3PU)
+        Me.Controls.Add(Me.M3PU1)
+        Me.Controls.Add(Me.M3PU15)
+        Me.Controls.Add(Me.M3PU14)
+        Me.Controls.Add(Me.M3PU13)
+        Me.Controls.Add(Me.M3PU12)
+        Me.Controls.Add(Me.M3PU11)
+        Me.Controls.Add(Me.M3PU10)
+        Me.Controls.Add(Me.M3PU9)
+        Me.Controls.Add(Me.M3PU8)
+        Me.Controls.Add(Me.M3PU7)
+        Me.Controls.Add(Me.M3PU6)
+        Me.Controls.Add(Me.Item15)
+        Me.Controls.Add(Me.Item14)
+        Me.Controls.Add(Me.Item13)
+        Me.Controls.Add(Me.Item12)
+        Me.Controls.Add(Me.Item11)
+        Me.Controls.Add(Me.IskMade15)
+        Me.Controls.Add(Me.Units15)
+        Me.Controls.Add(Me.IPU15)
+        Me.Controls.Add(Me.IskMade14)
+        Me.Controls.Add(Me.Units14)
+        Me.Controls.Add(Me.IPU14)
+        Me.Controls.Add(Me.IskMade13)
+        Me.Controls.Add(Me.Units13)
+        Me.Controls.Add(Me.IPU13)
+        Me.Controls.Add(Me.IskMade12)
+        Me.Controls.Add(Me.Units12)
+        Me.Controls.Add(Me.IPU12)
+        Me.Controls.Add(Me.IskMade11)
+        Me.Controls.Add(Me.Units11)
+        Me.Controls.Add(Me.IPU11)
+        Me.Controls.Add(Me.Total_M3_Made)
+        Me.Controls.Add(Me.Total_M3_Made_Label)
+        Me.Controls.Add(Me.M3Made5)
+        Me.Controls.Add(Me.M3Made4)
+        Me.Controls.Add(Me.M3Made3)
+        Me.Controls.Add(Me.M3Made2)
+        Me.Controls.Add(Me.M3_Made_Label)
+        Me.Controls.Add(Me.M3Made1)
+        Me.Controls.Add(Me.M3Made15)
+        Me.Controls.Add(Me.M3Made14)
+        Me.Controls.Add(Me.M3Made13)
+        Me.Controls.Add(Me.M3Made12)
+        Me.Controls.Add(Me.M3Made11)
+        Me.Controls.Add(Me.M3Made10)
+        Me.Controls.Add(Me.M3Made9)
+        Me.Controls.Add(Me.M3Made8)
+        Me.Controls.Add(Me.M3Made7)
+        Me.Controls.Add(Me.M3Made6)
         Me.Controls.Add(Me.Export_Button)
         Me.Controls.Add(Me.Item10)
         Me.Controls.Add(Me.Item9)
@@ -693,19 +1391,23 @@ Partial Class PI_Calculator
         Me.Controls.Add(Me.Units1)
         Me.Controls.Add(Me.IPU1)
         Me.Controls.Add(Me.Item1)
-        Me.Name = "PI_Calculator"
+        Me.Name = "PICalculator"
         Me.Text = "PI_Calculator"
+        CType(Me.PIPricesBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.YHIDataSet2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PIPricesBindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.YHIDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PIPricesBindingSource2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PIPricesBindingSource3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.YHIDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PIPricesBindingSource4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PIPricesBindingSource5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PIPricesBindingSource6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PIPricesBindingSource7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PIPricesBindingSource8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PIPricesBindingSource9, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PIPricesBindingSource14, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PIPricesBindingSource13, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PIPricesBindingSource12, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PIPricesBindingSource11, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PIPricesBindingSource10, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -758,11 +1460,50 @@ Partial Class PI_Calculator
     Friend WithEvents Item8 As System.Windows.Forms.ComboBox
     Friend WithEvents Item9 As System.Windows.Forms.ComboBox
     Friend WithEvents Item10 As System.Windows.Forms.ComboBox
-    Friend WithEvents YHIDataSet As EVE_Ore_Calculator.YHIDataSet
-    Friend WithEvents PI_PricesTableAdapter As EVE_Ore_Calculator.YHIDataSetTableAdapters.PI_PricesTableAdapter
+    Friend WithEvents Export_Button As System.Windows.Forms.Button
+    Friend WithEvents M3Made5 As System.Windows.Forms.TextBox
+    Friend WithEvents M3Made4 As System.Windows.Forms.TextBox
+    Friend WithEvents M3Made3 As System.Windows.Forms.TextBox
+    Friend WithEvents M3Made2 As System.Windows.Forms.TextBox
+    Friend WithEvents M3_Made_Label As System.Windows.Forms.Label
+    Friend WithEvents M3Made1 As System.Windows.Forms.TextBox
+    Friend WithEvents M3Made15 As System.Windows.Forms.TextBox
+    Friend WithEvents M3Made14 As System.Windows.Forms.TextBox
+    Friend WithEvents M3Made13 As System.Windows.Forms.TextBox
+    Friend WithEvents M3Made12 As System.Windows.Forms.TextBox
+    Friend WithEvents M3Made11 As System.Windows.Forms.TextBox
+    Friend WithEvents M3Made10 As System.Windows.Forms.TextBox
+    Friend WithEvents M3Made9 As System.Windows.Forms.TextBox
+    Friend WithEvents M3Made8 As System.Windows.Forms.TextBox
+    Friend WithEvents M3Made7 As System.Windows.Forms.TextBox
+    Friend WithEvents M3Made6 As System.Windows.Forms.TextBox
+    Friend WithEvents Total_M3_Made As System.Windows.Forms.TextBox
+    Friend WithEvents Total_M3_Made_Label As System.Windows.Forms.Label
+    Friend WithEvents Item15 As System.Windows.Forms.ComboBox
+    Friend WithEvents Item14 As System.Windows.Forms.ComboBox
+    Friend WithEvents Item13 As System.Windows.Forms.ComboBox
+    Friend WithEvents Item12 As System.Windows.Forms.ComboBox
+    Friend WithEvents Item11 As System.Windows.Forms.ComboBox
+    Friend WithEvents IskMade15 As System.Windows.Forms.TextBox
+    Friend WithEvents Units15 As System.Windows.Forms.TextBox
+    Friend WithEvents IPU15 As System.Windows.Forms.TextBox
+    Friend WithEvents IskMade14 As System.Windows.Forms.TextBox
+    Friend WithEvents Units14 As System.Windows.Forms.TextBox
+    Friend WithEvents IPU14 As System.Windows.Forms.TextBox
+    Friend WithEvents IskMade13 As System.Windows.Forms.TextBox
+    Friend WithEvents Units13 As System.Windows.Forms.TextBox
+    Friend WithEvents IPU13 As System.Windows.Forms.TextBox
+    Friend WithEvents IskMade12 As System.Windows.Forms.TextBox
+    Friend WithEvents Units12 As System.Windows.Forms.TextBox
+    Friend WithEvents IPU12 As System.Windows.Forms.TextBox
+    Friend WithEvents IskMade11 As System.Windows.Forms.TextBox
+    Friend WithEvents Units11 As System.Windows.Forms.TextBox
+    Friend WithEvents IPU11 As System.Windows.Forms.TextBox
+    Friend WithEvents YHIDataSet2 As EVE_Ore_Calculator.YHIDataSet2
+    Friend WithEvents PIPricesBindingSource As System.Windows.Forms.BindingSource
+    Friend WithEvents PI_PricesTableAdapter As EVE_Ore_Calculator.YHIDataSet2TableAdapters.PI_PricesTableAdapter
     Friend WithEvents PIPricesBindingSource1 As System.Windows.Forms.BindingSource
     Friend WithEvents PIPricesBindingSource2 As System.Windows.Forms.BindingSource
-    Friend WithEvents YHIDataSet1 As EVE_Ore_Calculator.YHIDataSet
     Friend WithEvents PIPricesBindingSource3 As System.Windows.Forms.BindingSource
     Friend WithEvents PIPricesBindingSource4 As System.Windows.Forms.BindingSource
     Friend WithEvents PIPricesBindingSource5 As System.Windows.Forms.BindingSource
@@ -770,6 +1511,25 @@ Partial Class PI_Calculator
     Friend WithEvents PIPricesBindingSource7 As System.Windows.Forms.BindingSource
     Friend WithEvents PIPricesBindingSource8 As System.Windows.Forms.BindingSource
     Friend WithEvents PIPricesBindingSource9 As System.Windows.Forms.BindingSource
+    Friend WithEvents PIPricesBindingSource14 As System.Windows.Forms.BindingSource
+    Friend WithEvents PIPricesBindingSource13 As System.Windows.Forms.BindingSource
+    Friend WithEvents PIPricesBindingSource12 As System.Windows.Forms.BindingSource
+    Friend WithEvents PIPricesBindingSource11 As System.Windows.Forms.BindingSource
     Friend WithEvents PIPricesBindingSource10 As System.Windows.Forms.BindingSource
-    Friend WithEvents Export_Button As System.Windows.Forms.Button
+    Friend WithEvents M3PU5 As System.Windows.Forms.TextBox
+    Friend WithEvents M3PU4 As System.Windows.Forms.TextBox
+    Friend WithEvents M3PU3 As System.Windows.Forms.TextBox
+    Friend WithEvents M3PU2 As System.Windows.Forms.TextBox
+    Friend WithEvents M3PU As System.Windows.Forms.Label
+    Friend WithEvents M3PU1 As System.Windows.Forms.TextBox
+    Friend WithEvents M3PU15 As System.Windows.Forms.TextBox
+    Friend WithEvents M3PU14 As System.Windows.Forms.TextBox
+    Friend WithEvents M3PU13 As System.Windows.Forms.TextBox
+    Friend WithEvents M3PU12 As System.Windows.Forms.TextBox
+    Friend WithEvents M3PU11 As System.Windows.Forms.TextBox
+    Friend WithEvents M3PU10 As System.Windows.Forms.TextBox
+    Friend WithEvents M3PU9 As System.Windows.Forms.TextBox
+    Friend WithEvents M3PU8 As System.Windows.Forms.TextBox
+    Friend WithEvents M3PU7 As System.Windows.Forms.TextBox
+    Friend WithEvents M3PU6 As System.Windows.Forms.TextBox
 End Class
