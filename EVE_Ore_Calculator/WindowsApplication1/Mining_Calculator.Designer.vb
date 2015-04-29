@@ -25,24 +25,14 @@ Partial Class Mining_Calculator
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Mining_Calculator))
         Me.Item10 = New System.Windows.Forms.ComboBox()
-        Me.MiningPricesBindingSource9 = New System.Windows.Forms.BindingSource(Me.components)
-        Me.YHIDataSet1 = New EVE_Ore_Calculator.YHIDataSet1()
         Me.Item9 = New System.Windows.Forms.ComboBox()
-        Me.MiningPricesBindingSource8 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Item8 = New System.Windows.Forms.ComboBox()
-        Me.MiningPricesBindingSource7 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Item7 = New System.Windows.Forms.ComboBox()
-        Me.MiningPricesBindingSource6 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Item6 = New System.Windows.Forms.ComboBox()
-        Me.MiningPricesBindingSource5 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Item5 = New System.Windows.Forms.ComboBox()
-        Me.MiningPricesBindingSource4 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Item4 = New System.Windows.Forms.ComboBox()
-        Me.MiningPricesBindingSource3 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Item3 = New System.Windows.Forms.ComboBox()
-        Me.MiningPricesBindingSource2 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Item2 = New System.Windows.Forms.ComboBox()
-        Me.MiningPricesBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Clear_All_Button = New System.Windows.Forms.Button()
         Me.IskMade10 = New System.Windows.Forms.TextBox()
         Me.Units10 = New System.Windows.Forms.TextBox()
@@ -81,17 +71,11 @@ Partial Class Mining_Calculator
         Me.Units1 = New System.Windows.Forms.TextBox()
         Me.IPU1 = New System.Windows.Forms.TextBox()
         Me.Item1 = New System.Windows.Forms.ComboBox()
-        Me.MiningPricesBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.Item15 = New System.Windows.Forms.ComboBox()
-        Me.MiningPricesBindingSource14 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Item14 = New System.Windows.Forms.ComboBox()
-        Me.MiningPricesBindingSource13 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Item13 = New System.Windows.Forms.ComboBox()
-        Me.MiningPricesBindingSource12 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Item12 = New System.Windows.Forms.ComboBox()
-        Me.MiningPricesBindingSource11 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Item11 = New System.Windows.Forms.ComboBox()
-        Me.MiningPricesBindingSource10 = New System.Windows.Forms.BindingSource(Me.components)
         Me.IskMade15 = New System.Windows.Forms.TextBox()
         Me.Units15 = New System.Windows.Forms.TextBox()
         Me.IPU15 = New System.Windows.Forms.TextBox()
@@ -125,8 +109,6 @@ Partial Class Mining_Calculator
         Me.M3Made11 = New System.Windows.Forms.TextBox()
         Me.Total_M3_Made = New System.Windows.Forms.TextBox()
         Me.Total_M3_Made_Label = New System.Windows.Forms.Label()
-        Me.YHIDataSetBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.Mining_PricesTableAdapter = New EVE_Ore_Calculator.YHIDataSet1TableAdapters.Mining_PricesTableAdapter()
         Me.Export_Button = New System.Windows.Forms.Button()
         Me.M3PU5 = New System.Windows.Forms.TextBox()
         Me.M3PU4 = New System.Windows.Forms.TextBox()
@@ -144,23 +126,39 @@ Partial Class Mining_Calculator
         Me.M3PU8 = New System.Windows.Forms.TextBox()
         Me.M3PU7 = New System.Windows.Forms.TextBox()
         Me.M3PU6 = New System.Windows.Forms.TextBox()
-        CType(Me.MiningPricesBindingSource9, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.YHIDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.MiningPricesBindingSource8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.MiningPricesBindingSource7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.MiningPricesBindingSource6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.MiningPricesBindingSource5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.MiningPricesBindingSource4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.MiningPricesBindingSource3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.MiningPricesBindingSource2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.MiningPricesBindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.YHIDataSet3 = New EVE_Ore_Calculator.YHIDataSet3()
+        Me.MiningPricesBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.Mining_PricesTableAdapter = New EVE_Ore_Calculator.YHIDataSet3TableAdapters.Mining_PricesTableAdapter()
+        Me.MiningPricesBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.MiningPricesBindingSource2 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.MiningPricesBindingSource3 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.MiningPricesBindingSource4 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.MiningPricesBindingSource5 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.MiningPricesBindingSource6 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.MiningPricesBindingSource7 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.MiningPricesBindingSource8 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.MiningPricesBindingSource9 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.MiningPricesBindingSource10 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.MiningPricesBindingSource11 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.MiningPricesBindingSource12 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.MiningPricesBindingSource13 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.MiningPricesBindingSource14 = New System.Windows.Forms.BindingSource(Me.components)
+        CType(Me.YHIDataSet3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MiningPricesBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.MiningPricesBindingSource14, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.MiningPricesBindingSource13, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.MiningPricesBindingSource12, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.MiningPricesBindingSource11, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.MiningPricesBindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.MiningPricesBindingSource2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.MiningPricesBindingSource3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.MiningPricesBindingSource4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.MiningPricesBindingSource5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.MiningPricesBindingSource6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.MiningPricesBindingSource7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.MiningPricesBindingSource8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.MiningPricesBindingSource9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MiningPricesBindingSource10, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.YHIDataSetBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.MiningPricesBindingSource11, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.MiningPricesBindingSource12, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.MiningPricesBindingSource13, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.MiningPricesBindingSource14, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Item10
@@ -176,16 +174,6 @@ Partial Class Mining_Calculator
         Me.Item10.TabIndex = 47
         Me.Item10.ValueMember = "M3"
         '
-        'MiningPricesBindingSource9
-        '
-        Me.MiningPricesBindingSource9.DataMember = "Mining_Prices"
-        Me.MiningPricesBindingSource9.DataSource = Me.YHIDataSet1
-        '
-        'YHIDataSet1
-        '
-        Me.YHIDataSet1.DataSetName = "YHIDataSet1"
-        Me.YHIDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
         'Item9
         '
         Me.Item9.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
@@ -198,11 +186,6 @@ Partial Class Mining_Calculator
         Me.Item9.Size = New System.Drawing.Size(233, 28)
         Me.Item9.TabIndex = 42
         Me.Item9.ValueMember = "M3"
-        '
-        'MiningPricesBindingSource8
-        '
-        Me.MiningPricesBindingSource8.DataMember = "Mining_Prices"
-        Me.MiningPricesBindingSource8.DataSource = Me.YHIDataSet1
         '
         'Item8
         '
@@ -217,11 +200,6 @@ Partial Class Mining_Calculator
         Me.Item8.TabIndex = 37
         Me.Item8.ValueMember = "M3"
         '
-        'MiningPricesBindingSource7
-        '
-        Me.MiningPricesBindingSource7.DataMember = "Mining_Prices"
-        Me.MiningPricesBindingSource7.DataSource = Me.YHIDataSet1
-        '
         'Item7
         '
         Me.Item7.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
@@ -234,11 +212,6 @@ Partial Class Mining_Calculator
         Me.Item7.Size = New System.Drawing.Size(233, 28)
         Me.Item7.TabIndex = 32
         Me.Item7.ValueMember = "M3"
-        '
-        'MiningPricesBindingSource6
-        '
-        Me.MiningPricesBindingSource6.DataMember = "Mining_Prices"
-        Me.MiningPricesBindingSource6.DataSource = Me.YHIDataSet1
         '
         'Item6
         '
@@ -253,16 +226,11 @@ Partial Class Mining_Calculator
         Me.Item6.TabIndex = 27
         Me.Item6.ValueMember = "M3"
         '
-        'MiningPricesBindingSource5
-        '
-        Me.MiningPricesBindingSource5.DataMember = "Mining_Prices"
-        Me.MiningPricesBindingSource5.DataSource = Me.YHIDataSet1
-        '
         'Item5
         '
         Me.Item5.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
         Me.Item5.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
-        Me.Item5.DataSource = Me.MiningPricesBindingSource4
+        Me.Item5.DataSource = Me.MiningPricesBindingSource3
         Me.Item5.DisplayMember = "Item"
         Me.Item5.FormattingEnabled = True
         Me.Item5.Location = New System.Drawing.Point(44, 326)
@@ -271,16 +239,11 @@ Partial Class Mining_Calculator
         Me.Item5.TabIndex = 22
         Me.Item5.ValueMember = "M3"
         '
-        'MiningPricesBindingSource4
-        '
-        Me.MiningPricesBindingSource4.DataMember = "Mining_Prices"
-        Me.MiningPricesBindingSource4.DataSource = Me.YHIDataSet1
-        '
         'Item4
         '
         Me.Item4.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
         Me.Item4.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
-        Me.Item4.DataSource = Me.MiningPricesBindingSource3
+        Me.Item4.DataSource = Me.MiningPricesBindingSource4
         Me.Item4.DisplayMember = "Item"
         Me.Item4.FormattingEnabled = True
         Me.Item4.Location = New System.Drawing.Point(44, 272)
@@ -288,11 +251,6 @@ Partial Class Mining_Calculator
         Me.Item4.Size = New System.Drawing.Size(233, 28)
         Me.Item4.TabIndex = 17
         Me.Item4.ValueMember = "M3"
-        '
-        'MiningPricesBindingSource3
-        '
-        Me.MiningPricesBindingSource3.DataMember = "Mining_Prices"
-        Me.MiningPricesBindingSource3.DataSource = Me.YHIDataSet1
         '
         'Item3
         '
@@ -307,11 +265,6 @@ Partial Class Mining_Calculator
         Me.Item3.TabIndex = 12
         Me.Item3.ValueMember = "M3"
         '
-        'MiningPricesBindingSource2
-        '
-        Me.MiningPricesBindingSource2.DataMember = "Mining_Prices"
-        Me.MiningPricesBindingSource2.DataSource = Me.YHIDataSet1
-        '
         'Item2
         '
         Me.Item2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
@@ -324,11 +277,6 @@ Partial Class Mining_Calculator
         Me.Item2.Size = New System.Drawing.Size(233, 28)
         Me.Item2.TabIndex = 7
         Me.Item2.ValueMember = "M3"
-        '
-        'MiningPricesBindingSource1
-        '
-        Me.MiningPricesBindingSource1.DataMember = "Mining_Prices"
-        Me.MiningPricesBindingSource1.DataSource = Me.YHIDataSet1
         '
         'Clear_All_Button
         '
@@ -688,11 +636,6 @@ Partial Class Mining_Calculator
         Me.Item1.TabIndex = 2
         Me.Item1.ValueMember = "M3"
         '
-        'MiningPricesBindingSource
-        '
-        Me.MiningPricesBindingSource.DataMember = "Mining_Prices"
-        Me.MiningPricesBindingSource.DataSource = Me.YHIDataSet1
-        '
         'Item15
         '
         Me.Item15.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
@@ -705,11 +648,6 @@ Partial Class Mining_Calculator
         Me.Item15.Size = New System.Drawing.Size(233, 28)
         Me.Item15.TabIndex = 72
         Me.Item15.ValueMember = "M3"
-        '
-        'MiningPricesBindingSource14
-        '
-        Me.MiningPricesBindingSource14.DataMember = "Mining_Prices"
-        Me.MiningPricesBindingSource14.DataSource = Me.YHIDataSet1
         '
         'Item14
         '
@@ -724,11 +662,6 @@ Partial Class Mining_Calculator
         Me.Item14.TabIndex = 67
         Me.Item14.ValueMember = "M3"
         '
-        'MiningPricesBindingSource13
-        '
-        Me.MiningPricesBindingSource13.DataMember = "Mining_Prices"
-        Me.MiningPricesBindingSource13.DataSource = Me.YHIDataSet1
-        '
         'Item13
         '
         Me.Item13.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
@@ -741,11 +674,6 @@ Partial Class Mining_Calculator
         Me.Item13.Size = New System.Drawing.Size(233, 28)
         Me.Item13.TabIndex = 62
         Me.Item13.ValueMember = "M3"
-        '
-        'MiningPricesBindingSource12
-        '
-        Me.MiningPricesBindingSource12.DataMember = "Mining_Prices"
-        Me.MiningPricesBindingSource12.DataSource = Me.YHIDataSet1
         '
         'Item12
         '
@@ -760,11 +688,6 @@ Partial Class Mining_Calculator
         Me.Item12.TabIndex = 57
         Me.Item12.ValueMember = "M3"
         '
-        'MiningPricesBindingSource11
-        '
-        Me.MiningPricesBindingSource11.DataMember = "Mining_Prices"
-        Me.MiningPricesBindingSource11.DataSource = Me.YHIDataSet1
-        '
         'Item11
         '
         Me.Item11.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
@@ -777,11 +700,6 @@ Partial Class Mining_Calculator
         Me.Item11.Size = New System.Drawing.Size(233, 28)
         Me.Item11.TabIndex = 52
         Me.Item11.ValueMember = "M3"
-        '
-        'MiningPricesBindingSource10
-        '
-        Me.MiningPricesBindingSource10.DataMember = "Mining_Prices"
-        Me.MiningPricesBindingSource10.DataSource = Me.YHIDataSet1
         '
         'IskMade15
         '
@@ -1116,10 +1034,6 @@ Partial Class Mining_Calculator
         Me.Total_M3_Made_Label.TabIndex = 130
         Me.Total_M3_Made_Label.Text = "Total M3 Made"
         '
-        'Mining_PricesTableAdapter
-        '
-        Me.Mining_PricesTableAdapter.ClearBeforeFill = True
-        '
         'Export_Button
         '
         Me.Export_Button.Location = New System.Drawing.Point(527, 938)
@@ -1303,6 +1217,90 @@ Partial Class Mining_Calculator
         Me.M3PU6.TabIndex = 183
         Me.M3PU6.Text = "0"
         '
+        'YHIDataSet3
+        '
+        Me.YHIDataSet3.DataSetName = "YHIDataSet3"
+        Me.YHIDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'MiningPricesBindingSource
+        '
+        Me.MiningPricesBindingSource.DataMember = "Mining_Prices"
+        Me.MiningPricesBindingSource.DataSource = Me.YHIDataSet3
+        '
+        'Mining_PricesTableAdapter
+        '
+        Me.Mining_PricesTableAdapter.ClearBeforeFill = True
+        '
+        'MiningPricesBindingSource1
+        '
+        Me.MiningPricesBindingSource1.DataMember = "Mining_Prices"
+        Me.MiningPricesBindingSource1.DataSource = Me.YHIDataSet3
+        '
+        'MiningPricesBindingSource2
+        '
+        Me.MiningPricesBindingSource2.DataMember = "Mining_Prices"
+        Me.MiningPricesBindingSource2.DataSource = Me.YHIDataSet3
+        '
+        'MiningPricesBindingSource3
+        '
+        Me.MiningPricesBindingSource3.DataMember = "Mining_Prices"
+        Me.MiningPricesBindingSource3.DataSource = Me.YHIDataSet3
+        '
+        'MiningPricesBindingSource4
+        '
+        Me.MiningPricesBindingSource4.DataMember = "Mining_Prices"
+        Me.MiningPricesBindingSource4.DataSource = Me.YHIDataSet3
+        '
+        'MiningPricesBindingSource5
+        '
+        Me.MiningPricesBindingSource5.DataMember = "Mining_Prices"
+        Me.MiningPricesBindingSource5.DataSource = Me.YHIDataSet3
+        '
+        'MiningPricesBindingSource6
+        '
+        Me.MiningPricesBindingSource6.DataMember = "Mining_Prices"
+        Me.MiningPricesBindingSource6.DataSource = Me.YHIDataSet3
+        '
+        'MiningPricesBindingSource7
+        '
+        Me.MiningPricesBindingSource7.DataMember = "Mining_Prices"
+        Me.MiningPricesBindingSource7.DataSource = Me.YHIDataSet3
+        '
+        'MiningPricesBindingSource8
+        '
+        Me.MiningPricesBindingSource8.DataMember = "Mining_Prices"
+        Me.MiningPricesBindingSource8.DataSource = Me.YHIDataSet3
+        '
+        'MiningPricesBindingSource9
+        '
+        Me.MiningPricesBindingSource9.DataMember = "Mining_Prices"
+        Me.MiningPricesBindingSource9.DataSource = Me.YHIDataSet3
+        '
+        'MiningPricesBindingSource10
+        '
+        Me.MiningPricesBindingSource10.DataMember = "Mining_Prices"
+        Me.MiningPricesBindingSource10.DataSource = Me.YHIDataSet3
+        '
+        'MiningPricesBindingSource11
+        '
+        Me.MiningPricesBindingSource11.DataMember = "Mining_Prices"
+        Me.MiningPricesBindingSource11.DataSource = Me.YHIDataSet3
+        '
+        'MiningPricesBindingSource12
+        '
+        Me.MiningPricesBindingSource12.DataMember = "Mining_Prices"
+        Me.MiningPricesBindingSource12.DataSource = Me.YHIDataSet3
+        '
+        'MiningPricesBindingSource13
+        '
+        Me.MiningPricesBindingSource13.DataMember = "Mining_Prices"
+        Me.MiningPricesBindingSource13.DataSource = Me.YHIDataSet3
+        '
+        'MiningPricesBindingSource14
+        '
+        Me.MiningPricesBindingSource14.DataMember = "Mining_Prices"
+        Me.MiningPricesBindingSource14.DataSource = Me.YHIDataSet3
+        '
         'Mining_Calculator
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
@@ -1415,23 +1413,22 @@ Partial Class Mining_Calculator
         Me.Controls.Add(Me.Item1)
         Me.Name = "Mining_Calculator"
         Me.Text = "Mining_Calculator"
-        CType(Me.MiningPricesBindingSource9, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.YHIDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.MiningPricesBindingSource8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.MiningPricesBindingSource7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.MiningPricesBindingSource6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.MiningPricesBindingSource5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.MiningPricesBindingSource4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.MiningPricesBindingSource3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.MiningPricesBindingSource2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.MiningPricesBindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.YHIDataSet3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.MiningPricesBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.MiningPricesBindingSource14, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.MiningPricesBindingSource13, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.MiningPricesBindingSource12, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.MiningPricesBindingSource11, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MiningPricesBindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MiningPricesBindingSource2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MiningPricesBindingSource3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MiningPricesBindingSource4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MiningPricesBindingSource5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MiningPricesBindingSource6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MiningPricesBindingSource7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MiningPricesBindingSource8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MiningPricesBindingSource9, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.MiningPricesBindingSource10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.YHIDataSetBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MiningPricesBindingSource11, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MiningPricesBindingSource12, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MiningPricesBindingSource13, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MiningPricesBindingSource14, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1521,24 +1518,6 @@ Partial Class Mining_Calculator
     Friend WithEvents M3Made11 As System.Windows.Forms.TextBox
     Friend WithEvents Total_M3_Made As System.Windows.Forms.TextBox
     Friend WithEvents Total_M3_Made_Label As System.Windows.Forms.Label
-    Friend WithEvents YHIDataSetBindingSource As System.Windows.Forms.BindingSource
-    Friend WithEvents YHIDataSet1 As EVE_Ore_Calculator.YHIDataSet1
-    Friend WithEvents MiningPricesBindingSource As System.Windows.Forms.BindingSource
-    Friend WithEvents Mining_PricesTableAdapter As EVE_Ore_Calculator.YHIDataSet1TableAdapters.Mining_PricesTableAdapter
-    Friend WithEvents MiningPricesBindingSource9 As System.Windows.Forms.BindingSource
-    Friend WithEvents MiningPricesBindingSource8 As System.Windows.Forms.BindingSource
-    Friend WithEvents MiningPricesBindingSource7 As System.Windows.Forms.BindingSource
-    Friend WithEvents MiningPricesBindingSource6 As System.Windows.Forms.BindingSource
-    Friend WithEvents MiningPricesBindingSource5 As System.Windows.Forms.BindingSource
-    Friend WithEvents MiningPricesBindingSource4 As System.Windows.Forms.BindingSource
-    Friend WithEvents MiningPricesBindingSource3 As System.Windows.Forms.BindingSource
-    Friend WithEvents MiningPricesBindingSource2 As System.Windows.Forms.BindingSource
-    Friend WithEvents MiningPricesBindingSource1 As System.Windows.Forms.BindingSource
-    Friend WithEvents MiningPricesBindingSource13 As System.Windows.Forms.BindingSource
-    Friend WithEvents MiningPricesBindingSource12 As System.Windows.Forms.BindingSource
-    Friend WithEvents MiningPricesBindingSource11 As System.Windows.Forms.BindingSource
-    Friend WithEvents MiningPricesBindingSource10 As System.Windows.Forms.BindingSource
-    Friend WithEvents MiningPricesBindingSource14 As System.Windows.Forms.BindingSource
     Friend WithEvents Export_Button As System.Windows.Forms.Button
     Friend WithEvents M3PU5 As System.Windows.Forms.TextBox
     Friend WithEvents M3PU4 As System.Windows.Forms.TextBox
@@ -1556,4 +1535,21 @@ Partial Class Mining_Calculator
     Friend WithEvents M3PU8 As System.Windows.Forms.TextBox
     Friend WithEvents M3PU7 As System.Windows.Forms.TextBox
     Friend WithEvents M3PU6 As System.Windows.Forms.TextBox
+    Friend WithEvents YHIDataSet3 As EVE_Ore_Calculator.YHIDataSet3
+    Friend WithEvents MiningPricesBindingSource As System.Windows.Forms.BindingSource
+    Friend WithEvents Mining_PricesTableAdapter As EVE_Ore_Calculator.YHIDataSet3TableAdapters.Mining_PricesTableAdapter
+    Friend WithEvents MiningPricesBindingSource9 As System.Windows.Forms.BindingSource
+    Friend WithEvents MiningPricesBindingSource8 As System.Windows.Forms.BindingSource
+    Friend WithEvents MiningPricesBindingSource7 As System.Windows.Forms.BindingSource
+    Friend WithEvents MiningPricesBindingSource6 As System.Windows.Forms.BindingSource
+    Friend WithEvents MiningPricesBindingSource5 As System.Windows.Forms.BindingSource
+    Friend WithEvents MiningPricesBindingSource3 As System.Windows.Forms.BindingSource
+    Friend WithEvents MiningPricesBindingSource4 As System.Windows.Forms.BindingSource
+    Friend WithEvents MiningPricesBindingSource2 As System.Windows.Forms.BindingSource
+    Friend WithEvents MiningPricesBindingSource1 As System.Windows.Forms.BindingSource
+    Friend WithEvents MiningPricesBindingSource14 As System.Windows.Forms.BindingSource
+    Friend WithEvents MiningPricesBindingSource13 As System.Windows.Forms.BindingSource
+    Friend WithEvents MiningPricesBindingSource12 As System.Windows.Forms.BindingSource
+    Friend WithEvents MiningPricesBindingSource11 As System.Windows.Forms.BindingSource
+    Friend WithEvents MiningPricesBindingSource10 As System.Windows.Forms.BindingSource
 End Class
